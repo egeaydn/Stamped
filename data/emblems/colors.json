@@ -1,0 +1,631 @@
+{
+ "AGO": {
+  "title": "Angolan passport",
+  "error": "fotoğraf yok"
+ },
+ "AFG": {
+  "title": "Afghan passport",
+  "r": 32,
+  "g": 66,
+  "b": 76,
+  "share": 0.77
+ },
+ "ALB": {
+  "title": "Albanian passport",
+  "r": 75,
+  "g": 34,
+  "b": 48,
+  "share": 0.71
+ },
+ "AND": {
+  "title": "Andorran passport",
+  "r": 48,
+  "g": 26,
+  "b": 22,
+  "share": 0.65
+ },
+ "ARE": {
+  "error": "API başarısız"
+ },
+ "ARG": {
+  "error": "API başarısız"
+ },
+ "ARM": {
+  "error": "API başarısız"
+ },
+ "ATG": {
+  "error": "API başarısız"
+ },
+ "AUS": {
+  "error": "API başarısız"
+ },
+ "AUT": {
+  "error": "API başarısız"
+ },
+ "AZE": {
+  "title": "Azerbaijani passport",
+  "r": 2,
+  "g": 45,
+  "b": 32,
+  "share": 0.78
+ },
+ "BDI": {
+  "title": "Burundian passport",
+  "r": 28,
+  "g": 30,
+  "b": 48,
+  "share": 0.23
+ },
+ "BEL": {
+  "title": "Belgian passport",
+  "r": 95,
+  "g": 25,
+  "b": 51,
+  "share": 0.88
+ },
+ "BEN": {
+  "title": "Beninese passport",
+  "r": 53,
+  "g": 97,
+  "b": 83,
+  "share": 0.6
+ },
+ "BFA": {
+  "title": "Burkinabe passport",
+  "error": "indirme 429"
+ },
+ "BGD": {
+  "error": "API başarısız"
+ },
+ "BGR": {
+  "error": "API başarısız"
+ },
+ "BHR": {
+  "error": "API başarısız"
+ },
+ "BHS": {
+  "error": "API başarısız"
+ },
+ "BIH": {
+  "error": "API başarısız"
+ },
+ "BLR": {
+  "error": "API başarısız"
+ },
+ "BLZ": {
+  "title": "Belizean passport",
+  "error": "fotoğraf yok"
+ },
+ "BOL": {
+  "title": "Bolivian passport",
+  "r": 94,
+  "g": 37,
+  "b": 47,
+  "share": 0.62
+ },
+ "BRA": {
+  "title": "Brazilian passport",
+  "r": 35,
+  "g": 41,
+  "b": 76,
+  "share": 0.36
+ },
+ "BRB": {
+  "title": "Barbados passport",
+  "error": "fotoğraf yok"
+ },
+ "BRN": {
+  "title": "Bruneian passport",
+  "r": 178,
+  "g": 63,
+  "b": 54,
+  "share": 0.94
+ },
+ "BTN": {
+  "error": "API başarısız"
+ },
+ "BWA": {
+  "error": "API başarısız"
+ },
+ "CAF": {
+  "error": "API başarısız"
+ },
+ "CAN": {
+  "error": "API başarısız"
+ },
+ "CHE": {
+  "error": "API başarısız"
+ },
+ "CHL": {
+  "error": "API başarısız"
+ },
+ "CHN": {
+  "title": "Chinese passport",
+  "r": 113,
+  "g": 43,
+  "b": 49,
+  "share": 0.81
+ },
+ "CIV": {
+  "title": "Ivorian passport",
+  "error": "fotoğraf yok"
+ },
+ "COD": {
+  "title": "Democratic Republic of the Congo passport",
+  "error": "indirme 429"
+ },
+ "CMR": {
+  "title": "Cameroonian passport",
+  "r": 51,
+  "g": 54,
+  "b": 53,
+  "share": 0.48
+ },
+ "COL": {
+  "error": "API başarısız"
+ },
+ "COG": {
+  "error": "API başarısız"
+ },
+ "COM": {
+  "error": "API başarısız"
+ },
+ "CPV": {
+  "error": "API başarısız"
+ },
+ "CRI": {
+  "error": "API başarısız"
+ },
+ "CUB": {
+  "error": "API başarısız"
+ },
+ "CZE": {
+  "title": "Czech passport",
+  "r": 95,
+  "g": 44,
+  "b": 61,
+  "share": 0.67
+ },
+ "CYP": {
+  "title": "Cypriot passport",
+  "r": 154,
+  "g": 46,
+  "b": 91,
+  "share": 0.43
+ },
+ "DJI": {
+  "title": "Djiboutian passport",
+  "error": "indirme 429"
+ },
+ "DEU": {
+  "title": "German passport",
+  "r": 87,
+  "g": 22,
+  "b": 34,
+  "share": 0.9
+ },
+ "DMA": {
+  "error": "API başarısız"
+ },
+ "DNK": {
+  "error": "API başarısız"
+ },
+ "DOM": {
+  "error": "API başarısız"
+ },
+ "DZA": {
+  "error": "API başarısız"
+ },
+ "ECU": {
+  "error": "API başarısız"
+ },
+ "EGY": {
+  "error": "API başarısız"
+ },
+ "ERI": {
+  "title": "Eritrean passport",
+  "error": "indirme 429"
+ },
+ "ESP": {
+  "title": "Spanish passport",
+  "r": 138,
+  "g": 23,
+  "b": 65,
+  "share": 0.81
+ },
+ "EST": {
+  "title": "Estonian passport",
+  "error": "indirme 429"
+ },
+ "FIN": {
+  "title": "Finnish passport",
+  "error": "fotoğraf yok"
+ },
+ "ETH": {
+  "title": "Ethiopian passport",
+  "r": 109,
+  "g": 42,
+  "b": 76,
+  "share": 0.77
+ },
+ "FJI": {
+  "error": "API başarısız"
+ },
+ "FRA": {
+  "error": "API başarısız"
+ },
+ "FSM": {
+  "error": "API başarısız"
+ },
+ "GAB": {
+  "error": "API başarısız"
+ },
+ "GBR": {
+  "error": "API başarısız"
+ },
+ "GEO": {
+  "error": "API başarısız"
+ },
+ "GHA": {
+  "title": "Ghanaian passport",
+  "r": 34,
+  "g": 49,
+  "b": 42,
+  "share": 0.57
+ },
+ "GIN": {
+  "title": "Guinean passport",
+  "r": 115,
+  "g": 98,
+  "b": 73,
+  "share": 0.27
+ },
+ "GMB": {
+  "title": "Gambian passport",
+  "error": "fotoğraf yok"
+ },
+ "GNB": {
+  "title": "Guinea-Bissau passport",
+  "r": 23,
+  "g": 91,
+  "b": 55,
+  "share": 0.86
+ },
+ "GNQ": {
+  "title": "Equatorial Guinean passport",
+  "r": 8,
+  "g": 8,
+  "b": 8,
+  "share": 0.37
+ },
+ "GRC": {
+  "error": "API başarısız"
+ },
+ "GRD": {
+  "error": "API başarısız"
+ },
+ "GTM": {
+  "error": "API başarısız"
+ },
+ "GUY": {
+  "error": "API başarısız"
+ },
+ "HKG": {
+  "error": "API başarısız"
+ },
+ "HND": {
+  "error": "API başarısız"
+ },
+ "HRV": {
+  "title": "Croatian passport",
+  "r": 47,
+  "g": 46,
+  "b": 48,
+  "share": 0.67
+ },
+ "HTI": {
+  "title": "Haitian passport",
+  "r": 26,
+  "g": 42,
+  "b": 78,
+  "share": 0.8
+ },
+ "HUN": {
+  "title": "Hungarian passport",
+  "r": 82,
+  "g": 38,
+  "b": 52,
+  "share": 0.89
+ },
+ "IDN": {
+  "title": "Indonesian passport",
+  "r": 35,
+  "g": 125,
+  "b": 150,
+  "share": 0.81
+ },
+ "IND": {
+  "title": "Indian passport",
+  "r": 7,
+  "g": 9,
+  "b": 48,
+  "share": 0.84
+ },
+ "IRL": {
+  "error": "API başarısız"
+ },
+ "IRN": {
+  "error": "API başarısız"
+ },
+ "IRQ": {
+  "error": "API başarısız"
+ },
+ "ISL": {
+  "error": "API başarısız"
+ },
+ "ISR": {
+  "error": "API başarısız"
+ },
+ "ITA": {
+  "error": "API başarısız"
+ },
+ "JAM": {
+  "title": "Jamaican passport",
+  "r": 32,
+  "g": 44,
+  "b": 77,
+  "share": 0.74
+ },
+ "JOR": {
+  "title": "Jordanian passport",
+  "r": 44,
+  "g": 52,
+  "b": 61,
+  "share": 0.31
+ },
+ "JPN": {
+  "title": "Japanese passport",
+  "r": 115,
+  "g": 6,
+  "b": 19,
+  "share": 0.86
+ },
+ "KAZ": {
+  "title": "Kazakhstani passport",
+  "r": 7,
+  "g": 109,
+  "b": 149,
+  "share": 0.76
+ },
+ "KEN": {
+  "error": "API başarısız"
+ },
+ "KGZ": {
+  "error": "API başarısız"
+ },
+ "KHM": {
+  "error": "API başarısız"
+ },
+ "KIR": {
+  "error": "API başarısız"
+ },
+ "KNA": {
+  "error": "API başarısız"
+ },
+ "KOR": {
+  "error": "API başarısız"
+ },
+ "KWT": {
+  "title": "Kuwaiti passport",
+  "r": 44,
+  "g": 62,
+  "b": 121,
+  "share": 0.94
+ },
+ "LAO": {
+  "title": "Laotian passport",
+  "r": 22,
+  "g": 39,
+  "b": 69,
+  "share": 0.71
+ },
+ "LBN": {
+  "title": "Lebanese passport",
+  "r": 14,
+  "g": 29,
+  "b": 55,
+  "share": 0.56
+ },
+ "LBR": {
+  "title": "Liberian passport",
+  "r": 54,
+  "g": 59,
+  "b": 56,
+  "share": 0.33
+ },
+ "LBY": {
+  "error": "API başarısız"
+ },
+ "LCA": {
+  "error": "API başarısız"
+ },
+ "LIE": {
+  "error": "API başarısız"
+ },
+ "LKA": {
+  "error": "API başarısız"
+ },
+ "LSO": {
+  "error": "API başarısız"
+ },
+ "LTU": {
+  "error": "API başarısız"
+ },
+ "LVA": {
+  "title": "Latvian passport",
+  "r": 70,
+  "g": 15,
+  "b": 24,
+  "share": 0.45
+ },
+ "MAC": {
+  "title": "Macao Special Administrative Region passport",
+  "r": 18,
+  "g": 50,
+  "b": 19,
+  "share": 0.54
+ },
+ "MAR": {
+  "title": "Moroccan passport",
+  "r": 57,
+  "g": 80,
+  "b": 54,
+  "share": 0.76
+ },
+ "LUX": {
+  "title": "Luxembourgish passport",
+  "r": 129,
+  "g": 2,
+  "b": 32,
+  "share": 0.91
+ },
+ "MCO": {
+  "title": "Monégasque passport",
+  "r": 88,
+  "g": 35,
+  "b": 47,
+  "share": 0.62
+ },
+ "MDA": {
+  "error": "API başarısız"
+ },
+ "MDG": {
+  "error": "API başarısız"
+ },
+ "MDV": {
+  "error": "API başarısız"
+ },
+ "MEX": {
+  "error": "API başarısız"
+ },
+ "MHL": {
+  "error": "API başarısız"
+ },
+ "MKD": {
+  "error": "API başarısız"
+ },
+ "MLI": {
+  "title": "Malian passport",
+  "error": "fotoğraf yok"
+ },
+ "MLT": {
+  "title": "Maltese passport",
+  "r": 120,
+  "g": 29,
+  "b": 39,
+  "share": 0.8
+ },
+ "MMR": {
+  "title": "Myanmar passport",
+  "r": 172,
+  "g": 6,
+  "b": 38,
+  "share": 0.86
+ },
+ "MNE": {
+  "title": "Montenegrin passport",
+  "r": 131,
+  "g": 42,
+  "b": 46,
+  "share": 0.85
+ },
+ "MNG": {
+  "title": "Mongolian passport",
+  "r": 220,
+  "g": 36,
+  "b": 55,
+  "share": 0.97
+ },
+ "MOZ": {
+  "error": "API başarısız"
+ },
+ "MRT": {
+  "error": "API başarısız"
+ },
+ "MUS": {
+  "error": "API başarısız"
+ },
+ "MWI": {
+  "error": "API başarısız"
+ },
+ "MYS": {
+  "error": "API başarısız"
+ },
+ "NAM": {
+  "error": "API başarısız"
+ },
+ "NER": {
+  "title": "Nigerien passport",
+  "r": 55,
+  "g": 138,
+  "b": 69,
+  "share": 0.8
+ },
+ "NGA": {
+  "title": "Nigerian passport",
+  "r": 26,
+  "g": 81,
+  "b": 63,
+  "share": 0.69
+ },
+ "NIC": {
+  "title": "Nicaraguan passport",
+  "error": "fotoğraf yok"
+ },
+ "NLD": {
+  "title": "Dutch passport",
+  "r": 92,
+  "g": 38,
+  "b": 51,
+  "share": 0.83
+ },
+ "NOR": {
+  "title": "Norwegian passport",
+  "r": 212,
+  "g": 102,
+  "b": 92,
+  "share": 0.99
+ },
+ "NRU": {
+  "error": "API başarısız"
+ },
+ "NPL": {
+  "error": "API başarısız"
+ },
+ "NZL": {
+  "error": "API başarısız"
+ },
+ "OMN": {
+  "error": "API başarısız"
+ },
+ "PAK": {
+  "error": "API başarısız"
+ },
+ "PAN": {
+  "error": "API başarısız"
+ },
+ "PHL": {
+  "title": "Philippine passport",
+  "r": 120,
+  "g": 15,
+  "b": 12,
+  "share": 0.79
+ },
+ "PER": {
+  "title": "Peruvian passport",
+  "r": 123,
+  "g": 22,
+  "b": 44,
+  "share": 0.86
+ }
+}

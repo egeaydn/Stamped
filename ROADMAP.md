@@ -1,0 +1,24 @@
+# Stamped Yol Haritası
+
+## Puanlama (araştırıldı, Kasım 2026)
+Hazır bir puan/sıralama API'si bulunamadı. Henley (IATA Timatic verisi, kapalı) ve passportindex.org kendi sıralamasını yayımlıyor, açık veri setlerinde puan yok.
+- **Henley:** vizesiz + varışta vize + ETA sayısı; e-vize "vize" sayılır. 227 hedef (bölgeler dahil). Temmuz 2026: Singapur 192, Japonya/Güney Kore/BAE 188.
+- **Passport Index (Mobility Score):** vizesiz + varışta vize + ETA + 3 günde çıkan e-vize. Bu yüzden BAE birinci çıkıyor.
+- **Bizim yöntem:** Mobility Score = vizesiz + varışta vize + ETA hedef sayısı (Henley'e yakın). E-vize ayrı gösterilir. Sıralamada eşit skorlar aynı sırayı paylaşır.
+- Veri setinde 199 hedef var ve süre bilgisi yok, bu yüzden sayılarımız Henley'inkinden farklı çıkar (BAE 169, Singapur 163). Arayüzde "Henley'in resmi sıralaması değildir" notu olmalı.
+
+## Aşamalar
+1. **Veri (bitti):** imorte/passport-index-data (Mart 2026) kullanılıyor; ilyankou setinin son veri güncellemesi Ocak 2025 olduğu için eskisi bırakıldı. ISO2 ve TR/EN ülke adları üretiliyor. Kalan: pasaport başına JSON'a bölme.
+2. **İskelet (yarım):** pasaport arama + bilgi paneli var. Kalan: tasarım tokenları, tema, mobil düzen.
+3. **Küre (ilk sürüm çalışıyor):** dönen dünya, pasaporta göre renkler, ülkeye tıklayınca pasaport değişir. Kalan: 110m harita 177 ülke içeriyor, 30'dan fazla küçük devlet (Singapur, Malta, Maldivler, Bahreyn, Monako vb.) haritada görünmüyor; nokta/halka katmanıyla eklenecek. Detay paneli, seçili ülkeye kamera odaklama.
+   - Bilinen sorun: Windows'ta bayrak emojileri harf olarak görünüyor, bayrak görselleriyle (ör. SVG seti) değiştirilecek.
+4. **Pasaport deneyimi (ilk sürüm bitti):** sağ altta kapak olarak duruyor, tıklayınca büyüyüp açılıyor. 3D sayfa çevirme, kimlik sayfası, bölümlere göre damga sayfaları (vizesiz, e-vize, vize gerekli), bölüm atlama, klavye (← → Esc), damgaya tıklayınca küre ülkeye uçar. Mobilde tek sayfa kipi. Kod: `src/components/passport/`, sayfa üretimi `src/lib/book.ts`.
+   - Kalan: sayfa kenarından tıklayıp/sürükleyerek çevirme (swipe), kapak renklerini gerçek pasaport renklerine göre doğrulama, damga sesi/titreşimi (isteğe bağlı), küçük devletlerde uçuş.
+5. **Karşılaştırma:** 2-4 pasaportu yan yana, fark vurgulama.
+6. **Puan ve sıralama:** dünya sıralaması, pasaport kartında puan.
+7. **Cila:** performans (Lighthouse), erişilebilirlik, mobil, SEO, paylaşım görselleri (OG).
+8. **Yayın:** Vercel (ücretsiz), kaynak/lisans atıfı sayfası.
+
+## Açık sorular
+- Veri güncelliği: ne sıklıkla güncellenecek? (öneri: elle, ayda bir)
+- Kaynak koşulları yayından önce doğrulanacak.

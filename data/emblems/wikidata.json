@@ -1,0 +1,3724 @@
+{
+ "PSE": {
+  "arms": [
+   "Coat of arms of Palestine.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ar": "دولة فلسطين"
+  },
+  "langs": [
+   "ar"
+  ]
+ },
+ "NHB": {
+  "arms": [
+   "Coat of arms of New Hebrides.svg"
+  ],
+  "seal": [],
+  "names": {},
+  "langs": [
+   "fr",
+   "en",
+   "bi"
+  ]
+ },
+ "GEL": {
+  "arms": [
+   "Coat of arms of the Gilbert and Ellice Islands (1937-1979).svg"
+  ],
+  "seal": [],
+  "names": {},
+  "langs": [
+   "en"
+  ]
+ },
+ "ATA": {
+  "arms": [],
+  "seal": [],
+  "names": {},
+  "langs": []
+ },
+ "ASC": {
+  "arms": [
+   "Coat of Arms of Ascension Island.svg"
+  ],
+  "seal": [],
+  "names": {},
+  "langs": [
+   "en"
+  ]
+ },
+ "SCG": {
+  "arms": [
+   "Coat of arms of Serbia and Montenegro.svg"
+  ],
+  "seal": [],
+  "names": {
+   "sr": "Државна заједница Србија и Црна Гора",
+   "sr-latn": "Državna zajednica Srbija i Crna Gora"
+  },
+  "langs": [
+   "sr"
+  ]
+ },
+ "ATB": {
+  "arms": [
+   "Coat of arms of the British Antarctic Territory.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "British Antarctic Territory"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "DNK": {
+  "arms": [
+   "National coat of arms of Denmark.svg"
+  ],
+  "seal": [],
+  "names": {
+   "da": "Kongeriget Danmark",
+   "fo": "Kongsríki Danmark",
+   "fr": "royaume du Danemark",
+   "kl": "Kunngeqarfik Danmarki",
+   "sv": "Konungariket Danmark"
+  },
+  "langs": [
+   "da"
+  ]
+ },
+ "GRC": {
+  "arms": [
+   "Coat of arms of Greece.svg"
+  ],
+  "seal": [],
+  "names": {
+   "nb": "Hellas",
+   "el": "Ελληνική Δημοκρατία",
+   "en": "Hellenic Republic",
+   "fr": "République hellénique",
+   "sv": "Republiken Grekland"
+  },
+  "langs": []
+ },
+ "PRT": {
+  "arms": [
+   "Coat of arms of Portugal.svg"
+  ],
+  "seal": [],
+  "names": {
+   "pt": "República Portuguesa",
+   "cs": "Portugalská republika",
+   "fr": "la République portugaise",
+   "ku": "Komara Portûgalê"
+  },
+  "langs": [
+   "pt"
+  ]
+ },
+ "URY": {
+  "arms": [
+   "Coat of arms of Uruguay.svg"
+  ],
+  "seal": [],
+  "names": {
+   "es": "Repúbilca Oriental del Uruguay"
+  },
+  "langs": []
+ },
+ "MDA": {
+  "arms": [
+   "Coat of arms of Moldova.svg"
+  ],
+  "seal": [
+   "Moldova seal.svg"
+  ],
+  "names": {
+   "mo": "Република Молдова"
+  },
+  "langs": [
+   "ro"
+  ]
+ },
+ "GRL": {
+  "arms": [
+   "Coat of arms of Greenland.svg"
+  ],
+  "seal": [],
+  "names": {
+   "da": "Grønland",
+   "kl": "Kalaallit Nunaat"
+  },
+  "langs": [
+   "kl"
+  ]
+ },
+ "HRV": {
+  "arms": [
+   "Coat of arms of Croatia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "hr": "Republika Hrvatska"
+  },
+  "langs": [
+   "hr"
+  ]
+ },
+ "BIH": {
+  "arms": [
+   "Coat of arms of Bosnia and Herzegovina.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Bosnia and Herzegovina",
+   "sr": "Босна и Херцеговина",
+   "bs": "Bosna i Hercegovina",
+   "hr": "Bosna i Hercegovina"
+  },
+  "langs": [
+   "hr",
+   "sr",
+   "bs"
+  ]
+ },
+ "MCO": {
+  "arms": [
+   "Coat of arms of Monaco.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "la Principauté de Monaco",
+   "lij-mc": "Múnegu",
+   "sv": "Furstendömet Monaco"
+  },
+  "langs": [
+   "fr"
+  ]
+ },
+ "IDN": {
+  "arms": [
+   "National emblem of Indonesia Garuda Pancasila.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ms": "Republik Indonesia",
+   "id": "Republik Indonesia",
+   "ar": "جمهورية إندونيسيا",
+   "fr": "République d’Indonésie",
+   "jv": "Indonésia"
+  },
+  "langs": [
+   "id"
+  ]
+ },
+ "ZAF": {
+  "arms": [
+   "Coat of arms of South Africa (heraldic).svg"
+  ],
+  "seal": [],
+  "names": {
+   "af": "Republiek van Suid-Afrika",
+   "en": "Republic of South Africa",
+   "nr": "iRiphabliki yeSewula Afrika",
+   "nso": "Repabliki ya Afrika Borwa",
+   "ss": "iRiphabhulikhi yeNingizimu Afrika",
+   "st": "Rephaboliki ya Afrika Borwa",
+   "tn": "Rephaboliki ya Aforika Borwa",
+   "ts": "Riphabliki ra Afrika Dzonga",
+   "ve": "Riphabuḽiki ya Afrika Tshipembe",
+   "xh": "iRiphablikhi yoMzantsi-Afrika",
+   "zu": "iRiphabhuliki yaseNingizimu Afrika"
+  },
+  "langs": [
+   "en",
+   "xh",
+   "ss",
+   "tn",
+   "ts",
+   "st",
+   "nr",
+   "af",
+   "ve",
+   "zu"
+  ]
+ },
+ "KHM": {
+  "arms": [
+   "Royal arms of Cambodia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "zh": "柬埔寨王國",
+   "en": "Kingdom of Cambodia",
+   "km": "ព្រះរាជាណាចក្រកម្ពុជា",
+   "fr": "le Royaume du Cambodge",
+   "hi": "कम्बोडिया की राजशाही",
+   "ku": "Keyaniya Kambocayê"
+  },
+  "langs": [
+   "km"
+  ]
+ },
+ "TLS": {
+  "arms": [
+   "Coat of arms of East Timor.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "République démocratique du Timor oriental",
+   "pt": "Timor-Leste",
+   "tet": "Timor-Leste"
+  },
+  "langs": [
+   "pt"
+  ]
+ },
+ "TUV": {
+  "arms": [
+   "Coat of arms of Tuvalu.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Tuvalu",
+   "fr": "les Tuvalu"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "VUT": {
+  "arms": [
+   "Coat of arms of Vanuatu.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "République du Vanuatu",
+   "en": "Republic of Vanuatu",
+   "bi": "Vanuatu"
+  },
+  "langs": [
+   "fr",
+   "en",
+   "bi"
+  ]
+ },
+ "NRU": {
+  "arms": [
+   "Coat of arms of Nauru (2020).svg"
+  ],
+  "seal": [],
+  "names": {
+   "na": "Ripublik Naoero",
+   "en": "Republic of Naoero"
+  },
+  "langs": [
+   "en",
+   "na"
+  ]
+ },
+ "FSM": {
+  "arms": [
+   "Seal of the Federated States of Micronesia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "les États fédérés de Micronésie"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "KIR": {
+  "arms": [
+   "Coat of arms of Kiribati.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Republic of Kiribati",
+   "fr": "la République des Kiribati",
+   "gil": "Kiribati",
+   "sk": "Republika Kiribati",
+   "de": "Republik Kiribati"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "FJI": {
+  "arms": [
+   "Coat of arms of Fiji.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Republic of Fiji",
+   "fj": "Matanitu ko Viti",
+   "fr": "République des Fidji"
+  },
+  "langs": [
+   "en",
+   "fj"
+  ]
+ },
+ "SUR": {
+  "arms": [
+   "Coat of arms of Suriname.svg"
+  ],
+  "seal": [],
+  "names": {
+   "nl": "Suriname",
+   "fr": "la République du Suriname"
+  },
+  "langs": [
+   "nl"
+  ]
+ },
+ "PRY": {
+  "arms": [
+   "Coat of arms of Paraguay.svg"
+  ],
+  "seal": [],
+  "names": {
+   "es": "Paraguay",
+   "fr": "République du Paraguay"
+  },
+  "langs": [
+   "es",
+   "gn"
+  ]
+ },
+ "VCT": {
+  "arms": [
+   "Coat of arms of Saint Vincent and the Grenadines.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "Saint-Vincent-et-les-Grenadines",
+   "en": "Saint Vincent and the Grenadines"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "JAM": {
+  "arms": [
+   "Coat of arms of Jamaica.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Jamaica",
+   "fr": "Jamaïque",
+   "jam": "Jumieka"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "BHS": {
+  "arms": [
+   "Coat of arms of the Bahamas.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Commonwealth of the Bahamas",
+   "fr": "Commonwealth des Bahamas",
+   "sk": "Bahamské spoločenstvo"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "JEY": {
+  "arms": [
+   "Coat of Arms of Jersey.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Jersey"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "SLV": {
+  "arms": [
+   "Coat of arms of El Salvador.svg"
+  ],
+  "seal": [],
+  "names": {
+   "es": "El Salvador",
+   "fr": "la République du Salvador"
+  },
+  "langs": [
+   "es"
+  ]
+ },
+ "CRI": {
+  "arms": [
+   "Coat of arms of Costa Rica.svg"
+  ],
+  "seal": [],
+  "names": {
+   "es": "Costa Rica",
+   "en": "Republic of Costa Rica",
+   "fr": "République du Costa Rica"
+  },
+  "langs": [
+   "es"
+  ]
+ },
+ "KWT": {
+  "arms": [
+   "Emblem of the State of Kuwait.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ar": "دَولَةُ الكُوَيت"
+  },
+  "langs": [
+   "ar"
+  ]
+ },
+ "MMR": {
+  "arms": [
+   "State Seal of the Republic of the Union of Myanmar.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Union of Myanmar",
+   "ru": "Республика Союз Мьянма",
+   "my": "ပြည်ထောင်စုဆိုရှယ်လစ်သမ္မတမြန်မာနိုင်ငံတော်",
+   "ar": "جمهورية اتحاد مينمار",
+   "es": "República de la Unión de Myanmar",
+   "fr": "République de l’Union de Birmanie",
+   "it": "Repubblica dell'Unione della Birmania"
+  },
+  "langs": [
+   "my"
+  ]
+ },
+ "NPL": {
+  "arms": [
+   "Emblem of Nepal.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ne": "नेपाल"
+  },
+  "langs": [
+   "ne"
+  ]
+ },
+ "PAK": {
+  "arms": [
+   "State emblem of Pakistan.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ur": "اسلامی جمہوریہ پاكستان"
+  },
+  "langs": [
+   "ur",
+   "en"
+  ]
+ },
+ "QAT": {
+  "arms": [
+   "Emblem of Qatar-2022.svg"
+  ],
+  "seal": [
+   "Emblem of Qatar-2022.svg"
+  ],
+  "names": {
+   "fr": "l’État du Qatar"
+  },
+  "langs": [
+   "ar"
+  ]
+ },
+ "BTN": {
+  "arms": [
+   "Emblem of Bhutan.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Kingdom of Bhutan"
+  },
+  "langs": [
+   "dz"
+  ]
+ },
+ "TZA": {
+  "arms": [
+   "Coat of arms of Tanzania.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "République unie de Tanzanie"
+  },
+  "langs": [
+   "en",
+   "sw"
+  ]
+ },
+ "PHL": {
+  "arms": [
+   "Coat of arms of the Philippines.svg"
+  ],
+  "seal": [
+   "Seal of the Philippines.svg"
+  ],
+  "names": {
+   "en": "Republic of the Philippines",
+   "tl": "Republika ng Pilipinas"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "ZMB": {
+  "arms": [
+   "Coat of arms of Zambia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Zambia",
+   "fr": "République de Zambie"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "COG": {
+  "arms": [
+   "Coat of arms of the Republic of the Congo.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "République du Congo",
+   "en": "Republic of the Congo",
+   "kg": "Repubilika ya Kongo",
+   "ln": "Republíki ya Kongó",
+   "zh-hans": "刚果共和国"
+  },
+  "langs": [
+   "fr"
+  ]
+ },
+ "GNQ": {
+  "arms": [
+   "Coat of arms of Equatorial Guinea.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "la République de Guinée équatoriale",
+   "ca": "República de Guinea Equatorial",
+   "es": "República de Guinea Ecuatorial"
+  },
+  "langs": [
+   "fr",
+   "es",
+   "pt"
+  ]
+ },
+ "PRI": {
+  "arms": [
+   "Coat of arms of the Commonwealth of Puerto Rico.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Commonwealth of Puerto Rico",
+   "es": "Estado Libre Asociado de Puerto Rico"
+  },
+  "langs": [
+   "en",
+   "es"
+  ]
+ },
+ "XKS": {
+  "arms": [
+   "Emblem of the Republic of Kosovo.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "la République du Kosovo",
+   "sq": "Republika e Kosovës",
+   "sr-cyrl": "Република Косово",
+   "sr-latn": "Republika Kosovo",
+   "sv": "Republiken Kosovo",
+   "bg": "Република Косово"
+  },
+  "langs": [
+   "sq",
+   "sr"
+  ]
+ },
+ "BYS": {
+  "arms": [
+   "Emblem of the Byelorussian Soviet Socialist Republic (1981–1991).svg"
+  ],
+  "seal": [],
+  "names": {
+   "be": "Беларуская Савецкая Сацыялістычная Рэспубліка"
+  },
+  "langs": [
+   "ru",
+   "be"
+  ]
+ },
+ "GUF": {
+  "arms": [
+   "Coat of arms of French Guiana, according to the original displayed at the Museum Franconie, at Cayenne.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "Guyane",
+   "gcr": "Lagwiyann"
+  },
+  "langs": [
+   "fr"
+  ]
+ },
+ "FRO": {
+  "arms": [
+   "Coat of arms of the Faroe Islands.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fo": "Føroyar",
+   "da": "Færøerne"
+  },
+  "langs": [
+   "fo",
+   "da"
+  ]
+ },
+ "ESH": {
+  "arms": [],
+  "seal": [],
+  "names": {
+   "en": "Western Sahara",
+   "fr": "Sahara occidental",
+   "es": "Sáhara Occidental",
+   "ar": "الصحراء الغربية"
+  },
+  "langs": [
+   "ar"
+  ]
+ },
+ "FLK": {
+  "arms": [
+   "Coat of Arms of the Falkland Islands (relief).svg"
+  ],
+  "seal": [],
+  "names": {
+   "en-gb": "Falkland Islands"
+  },
+  "langs": []
+ },
+ "IMN": {
+  "arms": [
+   "Coat of arms of the Isle of Man.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Isle of Man",
+   "gv": "Mannin"
+  },
+  "langs": [
+   "en",
+   "gv"
+  ]
+ },
+ "VIR": {
+  "arms": [
+   "Seal of the United States Virgin Islands.svg"
+  ],
+  "seal": [
+   "Seal of the United States Virgin Islands.svg"
+  ],
+  "names": {
+   "en": "U.S. Virgin Islands",
+   "lb": "Amerikanesch Joffereninselen",
+   "sk": "Panenské ostrovy Spojených štátov"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "MSR": {
+  "arms": [
+   "Coat of arms of Montserrat.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Montserrat"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "MAC": {
+  "arms": [
+   "Regional Emblem of Macau.svg"
+  ],
+  "seal": [],
+  "names": {
+   "pt": "Região Administrativa Especial de Macau da República Popular da China",
+   "zh": "中華人民共和國澳門特別行政區"
+  },
+  "langs": [
+   "pt"
+  ]
+ },
+ "GUM": {
+  "arms": [
+   "Seal of Guam.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Guam",
+   "ch": "Guåhan"
+  },
+  "langs": [
+   "en",
+   "ch"
+  ]
+ },
+ "UMI": {
+  "arms": [],
+  "seal": [],
+  "names": {
+   "en-us": "United States Minor Outlying Islands"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "GLP": {
+  "arms": [
+   "Coat of arms of Guadeloupe.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "Guadeloupe",
+   "gcf": "Gwadloup"
+  },
+  "langs": []
+ },
+ "MYT": {
+  "arms": [
+   "Coat of Arms of Mayotte.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "Mayotte"
+  },
+  "langs": [
+   "fr"
+  ]
+ },
+ "TCA": {
+  "arms": [
+   "Coat of arms of the Turks and Caicos Islands.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Turks and Caicos Islands"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "BVT": {
+  "arms": [],
+  "seal": [],
+  "names": {
+   "sk": "Bouvetov ostrov"
+  },
+  "langs": []
+ },
+ "BMU": {
+  "arms": [
+   "Coat of arms of Bermuda.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Bermuda",
+   "sk": "Bermudy"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "NLD": {
+  "arms": [
+   "Royal coat of arms of the Netherlands.svg",
+   "State coat of arms of the Netherlands.svg"
+  ],
+  "seal": [],
+  "names": {
+   "nl": "Koninkrijk der Nederlanden"
+  },
+  "langs": [
+   "nl"
+  ]
+ },
+ "PYF": {
+  "arms": [
+   "Coat of arms of French Polynesia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "TERRITOIRE DE LA POLYNESIE FRANCAISE"
+  },
+  "langs": [
+   "fr"
+  ]
+ },
+ "NFK": {
+  "arms": [
+   "Coat of arms of Norfolk Island.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Territory of Norfolk Island"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "NCL": {
+  "arms": [
+   "Emblem of New Caledonia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "Nouvelle-Calédonie"
+  },
+  "langs": [
+   "fr"
+  ]
+ },
+ "CSK": {
+  "arms": [
+   "Lesser coat of arms of Czechoslovakia.svg",
+   "Coat of arms of Czechoslovakia (1960–1990).svg",
+   "Herb Czechosłowacji (1990-1992).svg",
+   "Middle coat of arms of Czechoslovakia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "cs": "Československá socialistická republika"
+  },
+  "langs": [
+   "cs",
+   "sk"
+  ]
+ },
+ "PCN": {
+  "arms": [
+   "Coat of arms of the Pitcairn Islands.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Pitcairn"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "CCK": {
+  "arms": [
+   "Clunies-Ross family arms.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Cocos Islands"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "MID": {
+  "arms": [],
+  "seal": [],
+  "names": {},
+  "langs": [
+   "en"
+  ]
+ },
+ "YUG": {
+  "arms": [
+   "Emblem of Yugoslavia (1963–1992).svg",
+   "Coat of arms of Serbia and Montenegro.svg"
+  ],
+  "seal": [],
+  "names": {
+   "bg": "Социалистическа федеративна република Югославия",
+   "ru": "Социалистическая Федеративная Республика Югославия",
+   "uk": "Соціалістична Федеративна Республіка Югославія",
+   "sr": "Социјалистичка Федеративна Република Југославија"
+  },
+  "langs": [
+   "sl",
+   "mk",
+   "sr",
+   "sh"
+  ]
+ },
+ "ATF": {
+  "arms": [
+   "Armoiries Terres australes et antarctiques françaises.svg"
+  ],
+  "seal": [],
+  "names": {},
+  "langs": [
+   "fr"
+  ]
+ },
+ "JTN": {
+  "arms": [
+   "Great Seal of the United States (obverse).svg"
+  ],
+  "seal": [],
+  "names": {},
+  "langs": [
+   "en"
+  ]
+ },
+ "HMD": {
+  "arms": [],
+  "seal": [],
+  "names": {},
+  "langs": [
+   "en"
+  ]
+ },
+ "ATN": {
+  "arms": [
+   "Coat of arms of Norway.svg"
+  ],
+  "seal": [],
+  "names": {},
+  "langs": [
+   "no"
+  ]
+ },
+ "FXX": {
+  "arms": [],
+  "seal": [],
+  "names": {},
+  "langs": []
+ },
+ "HVO": {
+  "arms": [
+   "Coat of arms of Upper Volta.svg"
+  ],
+  "seal": [],
+  "names": {},
+  "langs": [
+   "fr"
+  ]
+ },
+ "CTE": {
+  "arms": [],
+  "seal": [],
+  "names": {},
+  "langs": []
+ },
+ "CRQ": {
+  "arms": [
+   "Coat of arms of Sark.svg"
+  ],
+  "seal": [],
+  "names": {},
+  "langs": [
+   "fr",
+   "en"
+  ]
+ },
+ "CAN": {
+  "arms": [
+   "Royal Coat of arms of Canada.svg"
+  ],
+  "seal": [
+   "Great Seal of Canada (1955–2025).png"
+  ],
+  "names": {
+   "en": "Canada"
+  },
+  "langs": [
+   "fr",
+   "en"
+  ]
+ },
+ "IRL": {
+  "arms": [
+   "Coat of arms of Ireland.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Ireland",
+   "ga": "Éire",
+   "fr": "Irlande",
+   "cs": "Irsko",
+   "sv": "Irland",
+   "ru": "Ирландия",
+   "sco": "Airlann",
+   "sl": "Irska"
+  },
+  "langs": [
+   "en",
+   "ga"
+  ]
+ },
+ "HUN": {
+  "arms": [
+   "Coat of arms of Hungary.svg"
+  ],
+  "seal": [
+   "Seal of Hungary (1915-1916).svg",
+   "Seal of Hungary (1916-1918).svg"
+  ],
+  "names": {
+   "hu": "Magyarország"
+  },
+  "langs": [
+   "hu"
+  ]
+ },
+ "ESP": {
+  "arms": [
+   "Escudo de España (variant).svg"
+  ],
+  "seal": [],
+  "names": {
+   "ca": "Regne d'Espanya",
+   "es": "Reino de España",
+   "eu": "Espainiako Erresuma",
+   "gl": "Reino de España"
+  },
+  "langs": [
+   "es"
+  ]
+ },
+ "USA": {
+  "arms": [
+   "Greater coat of arms of the United States.svg"
+  ],
+  "seal": [
+   "Great Seal of the United States (obverse).svg"
+  ],
+  "names": {
+   "en": "the United States of America"
+  },
+  "langs": [
+   "es",
+   "sm",
+   "ch"
+  ]
+ },
+ "BEL": {
+  "arms": [
+   "Great coat of arms of Belgium.svg"
+  ],
+  "seal": [],
+  "names": {
+   "de": "Königreich Belgien",
+   "fr": "Royaume de Belgique",
+   "nl": "Koninkrijk België"
+  },
+  "langs": [
+   "fr",
+   "de",
+   "nl"
+  ]
+ },
+ "LUX": {
+  "arms": [
+   "Greater coat of arms of the grand-duchy of Luxembourg.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "Grand-Duché de Luxembourg",
+   "de": "Großherzogtum Luxemburg",
+   "en": "Grand Duchy of Luxembourg",
+   "lb": "Groussherzogtum Lëtzebuerg"
+  },
+  "langs": [
+   "fr",
+   "de",
+   "lb"
+  ]
+ },
+ "FIN": {
+  "arms": [
+   "Coat of arms of Finland.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fi": "Suomen tasavalta",
+   "sv": "Republiken Finland"
+  },
+  "langs": [
+   "fi",
+   "sv"
+  ]
+ },
+ "SWE": {
+  "arms": [
+   "Great coat of arms of Sweden.svg"
+  ],
+  "seal": [],
+  "names": {
+   "sv": "Konungariket Sverige"
+  },
+  "langs": [
+   "sv"
+  ]
+ },
+ "POL": {
+  "arms": [
+   "Herb Polski.svg"
+  ],
+  "seal": [],
+  "names": {
+   "pl": "Rzeczpospolita Polska"
+  },
+  "langs": [
+   "pl"
+  ]
+ },
+ "LTU": {
+  "arms": [
+   "Coat of arms of Lithuania.svg"
+  ],
+  "seal": [],
+  "names": {
+   "lt": "Lietuvos Respublika",
+   "cs": "Litevská republika",
+   "et": "Leedu Vabariik",
+   "fr": "la République de Lituanie",
+   "sv": "Republiken Litauen"
+  },
+  "langs": [
+   "lt"
+  ]
+ },
+ "ITA": {
+  "arms": [
+   "Emblem of Italy.svg"
+  ],
+  "seal": [],
+  "names": {
+   "it": "Repubblica Italiana"
+  },
+  "langs": [
+   "it"
+  ]
+ },
+ "CHE": {
+  "arms": [
+   "Coat of arms of Switzerland.svg"
+  ],
+  "seal": [],
+  "names": {
+   "la": "Confoederatio Helvetica",
+   "en": "Swiss Confederation",
+   "es": "Confederación Suiza",
+   "de": "Schweizerische Eidgenossenschaft",
+   "fr": "la Confédération suisse",
+   "it": "Confederazione svizzera",
+   "pt": "Confederação Suíça",
+   "rm": "Confederaziun svizra"
+  },
+  "langs": [
+   "fr",
+   "it",
+   "de",
+   "rm"
+  ]
+ },
+ "AUT": {
+  "arms": [
+   "Coat of arms of Austria.svg"
+  ],
+  "seal": [],
+  "names": {
+   "de": "Österreich"
+  },
+  "langs": [
+   "de"
+  ]
+ },
+ "TUR": {
+  "arms": [],
+  "seal": [],
+  "names": {
+   "tr": "Türkiye Cumhuriyeti"
+  },
+  "langs": [
+   "tr"
+  ]
+ },
+ "EGY": {
+  "arms": [
+   "Coat of arms of Egypt (Official).svg"
+  ],
+  "seal": [],
+  "names": {
+   "ar": "جُمهورِيّةُ مِصرَ العَرَبيّةِ"
+  },
+  "langs": [
+   "ar"
+  ]
+ },
+ "MEX": {
+  "arms": [
+   "Coat of arms of Mexico.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ja": "メキシコ合衆国",
+   "en": "United Mexican States",
+   "sv": "Mexikos förenta stater",
+   "es": "Estados Unidos Mexicanos",
+   "alt": "Мексикан Бириктирилген Штаттар",
+   "an": "Estaus Unius Mexicanos",
+   "ang": "Mexiciscan Geālǣhtan Rīciu",
+   "ar": "الولايات المكسيكية المتحدة",
+   "ast": "Estaos Xuníos Mexicanos",
+   "bs": "Sjedinjene Države Meksika",
+   "ca": "Estats Units Mexicans",
+   "cy": "Unol Daleithiau Mecsico",
+   "da": "De Forenede Mexicanske Stater",
+   "de": "Vereinigte Mexikanische Staaten",
+   "el": "Ηνωμένες Μεξικανικές Πολιτείες",
+   "eo": "Unuiĝintaj Ŝtatoj de Meksiko",
+   "fo": "Sameindu Meksikonsku Statirnir",
+   "fr": "les États unis mexicains",
+   "got": "𐌲𐌰𐌰𐌹𐌽𐌹𐌳𐌰 𐌼𐌰𐌹𐌷𐌹𐌺𐌰𐌽𐌹𐍃𐌺𐌰 𐍂𐌴𐌹𐌺𐌾𐌰",
+   "he": "המדינות המקסיקניות המאוחדות",
+   "hr": "Sjedinjene Meksičke Države",
+   "hy": "Մեքսիկայի Միացյալ Նահանգներ",
+   "id": "Meksiko Serikat",
+   "ka": "მექსიკის შეერთებული შტატები",
+   "kbd": "Мексикэ Штат Зэгуэт",
+   "ko": "멕시코 합중국",
+   "la": "Foederati Status Mexicani,",
+   "mk": "Обединети Мексикански Држави",
+   "nah": "Mexika Sentik Wexteyowalko",
+   "pt": "Estados Unidos Mexicanos",
+   "ru": "Мексиканские Соединённые Штаты",
+   "sr": "Сједињене Мексичке Државе",
+   "zh": "墨西哥合众国"
+  },
+  "langs": [
+   "es"
+  ]
+ },
+ "FRA": {
+  "arms": [
+   "Arms of the French Republic.svg"
+  ],
+  "seal": [
+   "Arms of the French Republic.svg",
+   "Great Seal of France.svg",
+   "Great Seal of France (reverse).svg"
+  ],
+  "names": {
+   "fr": "République française"
+  },
+  "langs": [
+   "fr"
+  ]
+ },
+ "CHN": {
+  "arms": [
+   "中華人民共和國國徽.svg"
+  ],
+  "seal": [],
+  "names": {
+   "zh-hans": "中华人民共和国"
+  },
+  "langs": []
+ },
+ "BRA": {
+  "arms": [
+   "Coat of arms of Brazil.svg"
+  ],
+  "seal": [],
+  "names": {
+   "pt": "República Federativa do Brasil"
+  },
+  "langs": [
+   "pt"
+  ]
+ },
+ "RUS": {
+  "arms": [
+   "Coat of Arms of the Russian Federation.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ru": "Российская Федерация"
+  },
+  "langs": [
+   "ru"
+  ]
+ },
+ "DEU": {
+  "arms": [
+   "Coat of arms of Germany.svg"
+  ],
+  "seal": [],
+  "names": {
+   "de": "Bundesrepublik Deutschland"
+  },
+  "langs": [
+   "de"
+  ]
+ },
+ "BLR": {
+  "arms": [
+   "Coat of arms of Belarus (2020–present).svg"
+  ],
+  "seal": [],
+  "names": {
+   "be": "Рэспубліка Беларусь"
+  },
+  "langs": [
+   "ru",
+   "be"
+  ]
+ },
+ "ISL": {
+  "arms": [
+   "Coat of arms of Iceland.svg"
+  ],
+  "seal": [],
+  "names": {
+   "et": "Islandi Vabariik",
+   "fr": "la République d’Islande",
+   "is": "Lýðveldið Ísland",
+   "ku": "Komara Îslendayê",
+   "sv": "Republiken Island"
+  },
+  "langs": [
+   "is"
+  ]
+ },
+ "LVA": {
+  "arms": [
+   "Coat of arms of Latvia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "et": "Läti Vabariik",
+   "fr": "République de Lettonie",
+   "lv": "Latvijas Republika",
+   "sv": "Republiken Lettland"
+  },
+  "langs": [
+   "lv"
+  ]
+ },
+ "AND": {
+  "arms": [
+   "Coat of Arms of Andorra.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ca": "Andorra"
+  },
+  "langs": [
+   "ca"
+  ]
+ },
+ "CYP": {
+  "arms": [
+   "Coat of arms of Cyprus (2006).svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Republic of Cyprus",
+   "de": "Republik Zypern",
+   "el": "Κυπριακή Δημοκρατία",
+   "fr": "la République de Chypre",
+   "sv": "Republiken Cypern",
+   "tr": "Kıbrıs Cumhuriyeti",
+   "ku": "Komara Qibrisê"
+  },
+  "langs": [
+   "tr",
+   "el"
+  ]
+ },
+ "KAZ": {
+  "arms": [
+   "Emblem of Kazakhstan latin.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "la République du Kazakhstan",
+   "kk": "قزاقستان رهسپۇبليكاسى",
+   "ru": "Республика Казахстан",
+   "ug": "قازاقىستان"
+  },
+  "langs": [
+   "ru",
+   "kk"
+  ]
+ },
+ "BLZ": {
+  "arms": [
+   "Coat of arms of Belize.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Belize",
+   "fr": "le Bélize",
+   "sk": "Belize"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "BRB": {
+  "arms": [
+   "Coat of arms of Barbados (2).svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Barbados",
+   "be-tarask": "Барбадас",
+   "fr": "la Barbade",
+   "sk": "Barbados"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "DZA": {
+  "arms": [
+   "National Emblem of Algeria (bronze effect).svg"
+  ],
+  "seal": [],
+  "names": {
+   "ar": "اَلْجُمهُورِيَّة اَلْجَزَائِرِيَّة اَلدِّيمُقرَاطِيَّة اَلشَّعبِيَّة"
+  },
+  "langs": [
+   "ar"
+  ]
+ },
+ "CHL": {
+  "arms": [
+   "Coat of arms of Chile (c).svg"
+  ],
+  "seal": [],
+  "names": {
+   "es": "Chile",
+   "de": "Republik Chile",
+   "en": "Republic of Chile",
+   "fr": "République du Chili"
+  },
+  "langs": [
+   "es"
+  ]
+ },
+ "LIE": {
+  "arms": [
+   "Staatswappen-Liechtensteins.svg"
+  ],
+  "seal": [],
+  "names": {
+   "de": "Fürstentum Liechtenstein",
+   "fr": "la Principauté du Liechtenstein",
+   "no": "Fyrstedømmet Liechtenstein",
+   "sv": "Furstendömet Liechtenstein"
+  },
+  "langs": [
+   "de"
+  ]
+ },
+ "BHR": {
+  "arms": [
+   "Coat of Arms of The Kingdom of Bahrain.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Kingdom of Bahrain",
+   "fr": "Royaume de Bahreïn",
+   "sk": "Bahrajnské kráľovstvo"
+  },
+  "langs": [
+   "ar"
+  ]
+ },
+ "SRB": {
+  "arms": [
+   "Coat of arms of Serbia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "sr": "Србија",
+   "fr": "la République de Serbie"
+  },
+  "langs": [
+   "sr"
+  ]
+ },
+ "AUS": {
+  "arms": [
+   "Coat of arms of the Commonwealth of Australia.svg"
+  ],
+  "seal": [
+   "Great Seal of Australia 1973–2024.png"
+  ],
+  "names": {
+   "en-au": "Commonwealth of Australia"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "ARG": {
+  "arms": [
+   "Coat of arms of Argentina.svg"
+  ],
+  "seal": [],
+  "names": {
+   "es": "República Argentina"
+  },
+  "langs": [
+   "es"
+  ]
+ },
+ "PRK": {
+  "arms": [
+   "Emblem of North Korea.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ko-kp": "조선민주주의인민공화국"
+  },
+  "langs": [
+   "ko"
+  ]
+ },
+ "TCD": {
+  "arms": [
+   "Coat of arms of Chad.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "la République du Tchad",
+   "en": "Republic of Chad"
+  },
+  "langs": [
+   "fr",
+   "ar"
+  ]
+ },
+ "WSM": {
+  "arms": [
+   "Public Seal of Samoa.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Western Samoa",
+   "fr": "État indépendant des Samoa",
+   "ru": "Западное Самоа",
+   "sm": "Sāmoa"
+  },
+  "langs": [
+   "en",
+   "sm"
+  ]
+ },
+ "SLB": {
+  "arms": [
+   "Coat of arms of the Solomon Islands.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Solomon Islands",
+   "fr": "les Îles Salomon"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "MHL": {
+  "arms": [
+   "Seal of the Marshall Islands.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Marshall Islands",
+   "mh": "Aolepān Aorōkin Ṃajeḷ"
+  },
+  "langs": [
+   "en",
+   "mh"
+  ]
+ },
+ "COL": {
+  "arms": [
+   "Coat of arms of Colombia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "es": "República de Colombia",
+   "en": "Republic of Colombia",
+   "fr": "la République de Colombie",
+   "pl": "Republika Kolumbii"
+  },
+  "langs": [
+   "es"
+  ]
+ },
+ "KNA": {
+  "arms": [
+   "Coat of Arms of Saint Kitts and Nevis.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Saint Kitts and Nevis",
+   "fr": "la Fédération de Saint-Christophe-et-Niévès"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "GRD": {
+  "arms": [
+   "Coat of arms of Grenada.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Grenada",
+   "lb": "Grenada",
+   "fr": "la Grenade"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "ATG": {
+  "arms": [
+   "Coat of arms of Antigua and Barbuda.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "Antigua-et-Barbuda",
+   "en": "Antigua and Barbuda",
+   "sk": "Antigua a Barbuda"
+  },
+  "langs": [
+   "en",
+   "es"
+  ]
+ },
+ "DMA": {
+  "arms": [
+   "Coat of arms of Dominica.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Commonwealth of Dominica",
+   "lb": "Dominica",
+   "fr": "Commonwealth de Dominique"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "HTI": {
+  "arms": [
+   "Coat of arms of Haiti.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "la République d’Haïti",
+   "ht": "Ayiti"
+  },
+  "langs": [
+   "fr",
+   "ht"
+  ]
+ },
+ "PAN": {
+  "arms": [
+   "Coat of arms of Panama.svg"
+  ],
+  "seal": [],
+  "names": {
+   "es": "Panamá",
+   "fr": "la République du Panama"
+  },
+  "langs": [
+   "es"
+  ]
+ },
+ "MDV": {
+  "arms": [
+   "Emblem of Maldives.svg"
+  ],
+  "seal": [],
+  "names": {
+   "dv": "ދިވެހިރާއްޖޭގެ ޖުމުހޫރިއްޔާ",
+   "fr": "la République des Maldives"
+  },
+  "langs": [
+   "dv"
+  ]
+ },
+ "LKA": {
+  "arms": [
+   "Emblem of Sri Lanka.svg"
+  ],
+  "seal": [],
+  "names": {
+   "si": "ශ්රී ලංකාව",
+   "fr": "la République socialiste démocratique de Sri Lanka",
+   "ta": "இலங்கை சனநாயக சோசலிசக் குடியரசு"
+  },
+  "langs": [
+   "ta",
+   "si"
+  ]
+ },
+ "SYR": {
+  "arms": [
+   "Emblem of Syria (2025–present).svg"
+  ],
+  "seal": [],
+  "names": {
+   "ar": "سوريا",
+   "en": "Syrian Arab Republic",
+   "ms": "Republik Arab Syria",
+   "tr": "Suriye Arap Cumhuriyeti",
+   "fr": "la République arabe syrienne"
+  },
+  "langs": [
+   "ar"
+  ]
+ },
+ "TWN": {
+  "arms": [
+   "National Emblem of the Republic of China.svg"
+  ],
+  "seal": [],
+  "names": {
+   "zh-tw": "中華民國"
+  },
+  "langs": []
+ },
+ "THA": {
+  "arms": [
+   "Emblem of Thailand.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ar": "مملكة تايلاند",
+   "de": "Königreich Thailand",
+   "en": "Kingdom of Thailand",
+   "es": "Reino de Tailandia",
+   "fr": "le Royaume de Thaïlande",
+   "ja": "タイ王国",
+   "lo": "ລາຊະອານາຈັກໄທ",
+   "ms": "Kerajaan Thailand",
+   "my": "ထိုင်းဘုရင့်နိုင်ငံ",
+   "nl": "Koninkrijk Thailand",
+   "ru": "Королевство Таиланд",
+   "th": "ราชอาณาจักรไทย",
+   "vi": "Vương quốc Thái Lan",
+   "zh-cn": "泰王国",
+   "pt": "Reino da Tailândia",
+   "km": "ព្រះរាជាណាចក្រថៃ",
+   "pi": "राजाणाचक्कदेय्य",
+   "hi": "थाईलैंड राज्य",
+   "sa": "राजनाज्ञाचक्रदैय",
+   "shn": "မိူင်းႁေႃၶမ်းထႆး",
+   "id": "Kerajaan Tailan"
+  },
+  "langs": [
+   "th"
+  ]
+ },
+ "KOR": {
+  "arms": [
+   "Emblem of South Korea.svg"
+  ],
+  "seal": [
+   "Seal of South Korea.svg"
+  ],
+  "names": {
+   "fr": "République de Corée",
+   "en": "Republic of Korea",
+   "ko": "大韓民國"
+  },
+  "langs": [
+   "ko"
+  ]
+ },
+ "BGD": {
+  "arms": [
+   "National emblem of Bangladesh.svg"
+  ],
+  "seal": [],
+  "names": {
+   "bn": "গণপ্রজাতন্ত্রী বাংলাদেশ"
+  },
+  "langs": [
+   "bn"
+  ]
+ },
+ "MLI": {
+  "arms": [
+   "Coat of arms of Mali.svg"
+  ],
+  "seal": [],
+  "names": {
+   "bm": "Mali ka Fasojamana"
+  },
+  "langs": [
+   "ff",
+   "bm"
+  ]
+ },
+ "AGO": {
+  "arms": [
+   "Emblem of Angola.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Republic of Angola",
+   "fr": "République d’Angola",
+   "pt": "República de Angola",
+   "sk": "Angolská republika"
+  },
+  "langs": [
+   "pt"
+  ]
+ },
+ "CAF": {
+  "arms": [
+   "Coat of arms of Central African Republic.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Central African Republic",
+   "fr": "République centrafricaine",
+   "sg": "Ködörösêse tî Bêafrîka"
+  },
+  "langs": [
+   "fr",
+   "sg"
+  ]
+ },
+ "TGO": {
+  "arms": [
+   "Armoiries du Togo.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "République togolaise",
+   "ee": "Togo"
+  },
+  "langs": [
+   "fr"
+  ]
+ },
+ "TUN": {
+  "arms": [
+   "Coat of arms of Tunisia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Republic of Tunisia",
+   "ar": "الجمهورية التونسية",
+   "fr": "République tunisienne",
+   "ms": "Tunisia",
+   "az": "الجمهورية التونسية"
+  },
+  "langs": [
+   "ar"
+  ]
+ },
+ "SSD": {
+  "arms": [
+   "Coat of arms of South Sudan.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Republic of South Sudan",
+   "ar": "جمهورية جنوب السودان",
+   "fr": "la République du Soudan du Sud"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "BEN": {
+  "arms": [
+   "Coat of arms of Benin.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "République du Bénin",
+   "en": "Republic of Benin"
+  },
+  "langs": [
+   "fr"
+  ]
+ },
+ "BFA": {
+  "arms": [
+   "Coat of arms of Burkina Faso (1997–2025).svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "Burkina Faso",
+   "en": "Burkina Faso"
+  },
+  "langs": []
+ },
+ "GAB": {
+  "arms": [
+   "Coat of arms of Gabon.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "la République gabonaise",
+   "it": "Repubblica Gabonese"
+  },
+  "langs": [
+   "fr"
+  ]
+ },
+ "GMB": {
+  "arms": [
+   "Coat of arms of The Gambia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Republic of The Gambia"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "GIN": {
+  "arms": [
+   "Coat of arms of Guinea.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "République de Guinée",
+   "nqo": "ߖߌ߬ߣߍ߬ ߞߊ߲ߓߍ߲"
+  },
+  "langs": [
+   "fr"
+  ]
+ },
+ "GNB": {
+  "arms": [
+   "Emblem of Guinea-Bissau.svg"
+  ],
+  "seal": [],
+  "names": {
+   "it": "Guinea-Bissau",
+   "fr": "la République de Guinée-Bissao",
+   "pt": "Guiné-Bissau"
+  },
+  "langs": [
+   "pt"
+  ]
+ },
+ "CIV": {
+  "arms": [
+   "Coat of arms of Ivory Coast (2).svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "République de Côte d’Ivoire",
+   "en": "Republic of Côte d’Ivoire",
+   "it": "Repubblica della Costa d'Avorio"
+  },
+  "langs": [
+   "fr"
+  ]
+ },
+ "CMR": {
+  "arms": [
+   "Coat of arms of Cameroon.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "République du Cameroun",
+   "en": "Republic of Cameroon",
+   "ff": "Hautugo Kamerun"
+  },
+  "langs": [
+   "fr",
+   "en"
+  ]
+ },
+ "CPV": {
+  "arms": [
+   "Coat of arms of Cape Verde.svg"
+  ],
+  "seal": [],
+  "names": {
+   "pt": "República de Cabo Verde"
+  },
+  "langs": [
+   "pt"
+  ]
+ },
+ "LSO": {
+  "arms": [
+   "Coat of arms of Lesotho.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Kingdom of Lesotho",
+   "st": "Muso oa Lesotho",
+   "fr": "le Royaume du Lesotho"
+  },
+  "langs": [
+   "en",
+   "st"
+  ]
+ },
+ "LBR": {
+  "arms": [
+   "Coat of arms of Liberia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Liberia",
+   "fr": "la République du Libéria",
+   "it": "Repubblica di Libèria"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "LBY": {
+  "arms": [
+   "Seal of the Government of National Unity (Libya).svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "State of Libya",
+   "fr": "l’État de Libye",
+   "it": "Stato della Libia",
+   "tt": "Ливия дәүләте"
+  },
+  "langs": [
+   "ar"
+  ]
+ },
+ "MDG": {
+  "arms": [
+   "Seal of Madagascar.svg"
+  ],
+  "seal": [],
+  "names": {
+   "mg": "Madagasikara",
+   "fr": "République de Madagascar"
+  },
+  "langs": [
+   "fr",
+   "mg"
+  ]
+ },
+ "MAR": {
+  "arms": [
+   "Coat of arms of Morocco.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Kingdom of Morocco",
+   "ar": "المملكة المغربية",
+   "ary": "لمملكة لمغريبية",
+   "da": "Kongeriget Marokko",
+   "es": "Reino de Marruecos",
+   "fr": "Royaume du Maroc",
+   "ms": "Maghribi",
+   "sk": "Marocké kráľovstvo",
+   "vec": "Regno del Maroco",
+   "zgh": "ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵓⵎⵓⵔ ⵏ ⵡⴰⴽⵓⵛ"
+  },
+  "langs": [
+   "ar"
+  ]
+ },
+ "NAM": {
+  "arms": [
+   "Coat of arms of Namibia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Namibia",
+   "fr": "République de Namibie"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "NGA": {
+  "arms": [
+   "Coat of arms of Nigeria.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Federal Republic of Nigeria",
+   "ha": "Nijeriya",
+   "fr": "République fédérale du Nigéria",
+   "ig": "Naigeria",
+   "yo": "Orílẹ̀-èdè Olómìniira Aláàpapọ̀ Nàìjíríà"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "RWA": {
+  "arms": [
+   "Coat of arms of Rwanda.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Republic of Rwanda"
+  },
+  "langs": [
+   "fr",
+   "en",
+   "rw",
+   "sw"
+  ]
+ },
+ "SEN": {
+  "arms": [
+   "Coat of arms of Senegal (official version).svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "République du Sénégal"
+  },
+  "langs": [
+   "fr",
+   "wo"
+  ]
+ },
+ "SYC": {
+  "arms": [
+   "Coat of arms of Seychelles.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "la République des Seychelles",
+   "en": "Seychelles",
+   "it": "Repubblica delle Seychelles"
+  },
+  "langs": [
+   "fr",
+   "en"
+  ]
+ },
+ "ALA": {
+  "arms": [
+   "Coat of arms of Åland.svg"
+  ],
+  "seal": [],
+  "names": {
+   "sv": "Åland"
+  },
+  "langs": [
+   "sv"
+  ]
+ },
+ "SUN": {
+  "arms": [
+   "Coat of arms of the Soviet Union (1956–1991).svg",
+   "Coat of arms of the Soviet Union (1936–1946).svg",
+   "Coat of arms of the Soviet Union (1923–1936).svg",
+   "Coat of arms of the Soviet Union (1946–1956).svg",
+   "Coat of arms of the Soviet Union (1931–1936).svg"
+  ],
+  "seal": [],
+  "names": {
+   "ru": "Союз Советских Социалистических Республик"
+  },
+  "langs": [
+   "uk",
+   "ru",
+   "be"
+  ]
+ },
+ "DDR": {
+  "arms": [
+   "State arms of the German Democratic Republic.svg"
+  ],
+  "seal": [],
+  "names": {
+   "de": "Deutsche Demokratische Republik"
+  },
+  "langs": [
+   "de"
+  ]
+ },
+ "MTQ": {
+  "arms": [],
+  "seal": [],
+  "names": {
+   "fr": "Martinique"
+  },
+  "langs": []
+ },
+ "REU": {
+  "arms": [
+   "Armoiries Réunion.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "île de la Réunion"
+  },
+  "langs": [
+   "fr"
+  ]
+ },
+ "ABW": {
+  "arms": [
+   "Aruba wapen.svg"
+  ],
+  "seal": [],
+  "names": {
+   "nl": "Aruba"
+  },
+  "langs": [
+   "nl"
+  ]
+ },
+ "CUW": {
+  "arms": [
+   "Coat of arms of Curaçao.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Curaçao",
+   "nl": "Curaçao",
+   "pap": "Kòrsou"
+  },
+  "langs": [
+   "en",
+   "nl"
+  ]
+ },
+ "BLM": {
+  "arms": [
+   "Blason St Barthélémy TOM entire.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "Saint Barthélemy"
+  },
+  "langs": [
+   "fr"
+  ]
+ },
+ "CXR": {
+  "arms": [],
+  "seal": [],
+  "names": {},
+  "langs": [
+   "en"
+  ]
+ },
+ "SGS": {
+  "arms": [
+   "Coat of arms of South Georgia and the South Sandwich Islands.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "South Georgia and the South Sandwich Islands"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "TKL": {
+  "arms": [
+   "Badge of Tokelau.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Tokelau"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "JPN": {
+  "arms": [
+   "Kamon of the Imperial House of Japan.svg"
+  ],
+  "seal": [
+   "Gyomei kokuji.svg",
+   "Kamon of the Imperial House of Japan.svg"
+  ],
+  "names": {
+   "ja": "日本国"
+  },
+  "langs": [
+   "ja"
+  ]
+ },
+ "NOR": {
+  "arms": [
+   "Coat of arms of Norway.svg"
+  ],
+  "seal": [],
+  "names": {
+   "nb": "Kongeriket Norge"
+  },
+  "langs": [
+   "nn",
+   "nb",
+   "no"
+  ]
+ },
+ "KEN": {
+  "arms": [
+   "Coat of arms of Kenya (Official).svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Republic of Kenya"
+  },
+  "langs": [
+   "en",
+   "sw"
+  ]
+ },
+ "ETH": {
+  "arms": [
+   "Emblem of Ethiopia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "la République démocratique fédérale d’Éthiopie"
+  },
+  "langs": [
+   "am"
+  ]
+ },
+ "GHA": {
+  "arms": [
+   "Coat of arms of Ghana.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Ghana",
+   "ak": "Ghana",
+   "dag": "Gana tingbani",
+   "fr": "la République du Ghana"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "GBR": {
+  "arms": [
+   "Coat of arms of the United Kingdom (2022, variant 2).svg"
+  ],
+  "seal": [
+   "Reverse of the Great Seal of the Realm 1953.jpg"
+  ],
+  "names": {
+   "en": "United Kingdom of Great Britain and Northern Ireland"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "EST": {
+  "arms": [
+   "Coat of arms of Estonia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "et": "Eesti Vabariik"
+  },
+  "langs": [
+   "et"
+  ]
+ },
+ "UKR": {
+  "arms": [
+   "Coat of Arms of Ukraine (Pantone).svg"
+  ],
+  "seal": [],
+  "names": {
+   "uk": "Україна"
+  },
+  "langs": [
+   "uk"
+  ]
+ },
+ "CZE": {
+  "arms": [
+   "Coat of arms of the Czech Republic.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Czech Republic",
+   "es": "República Checa",
+   "fr": "République tchèque",
+   "cs": "Česká republika",
+   "af": "Tsjeggiese Republiek"
+  },
+  "langs": [
+   "cs"
+  ]
+ },
+ "SVK": {
+  "arms": [
+   "Coat of arms of Slovakia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "sk": "Slovenská republika"
+  },
+  "langs": [
+   "sk"
+  ]
+ },
+ "SVN": {
+  "arms": [
+   "Coat of arms of Slovenia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "sl": "Slovenija",
+   "hu": "Szlovén Köztársaság",
+   "it": "Repubblica di Slovenia"
+  },
+  "langs": [
+   "sl"
+  ]
+ },
+ "ROU": {
+  "arms": [
+   "Coat of arms of Romania.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ro": "România"
+  },
+  "langs": [
+   "ro"
+  ]
+ },
+ "BGR": {
+  "arms": [
+   "Coat of arms of Bulgaria.svg"
+  ],
+  "seal": [],
+  "names": {
+   "bg": "Република България",
+   "ca": "República de Bulgària",
+   "cs": "Bulharská republika",
+   "en": "Republic of Bulgaria",
+   "fr": "la République de Bulgarie",
+   "ro": "Republica Bulgaria",
+   "sv": "Republiken Bulgarien"
+  },
+  "langs": [
+   "bg"
+  ]
+ },
+ "MKD": {
+  "arms": [
+   "Coat of arms of North Macedonia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "be-tarask": "Рэспубліка Паўночная Македонія",
+   "bg": "Република Северна Македония",
+   "ca": "República de Macedònia del Nord",
+   "el": "Δημοκρατία της Βόρειας Μακεδονίας",
+   "fr": "la République de Macédoine du Nord",
+   "mk": "Република Северна Македонија",
+   "pl": "Republika Macedonii Północnej",
+   "pt": "República da Macedónia do Norte",
+   "pt-br": "República da Macedônia do Norte",
+   "ru": "Республика Северная Македония",
+   "sq": "Republika e Maqedonisë së Veriut",
+   "uk": "Республіка Північна Македонія"
+  },
+  "langs": [
+   "sq",
+   "mk"
+  ]
+ },
+ "ALB": {
+  "arms": [
+   "Coat of arms of Albania.svg"
+  ],
+  "seal": [],
+  "names": {
+   "sq": "Republika e Shqipërisë"
+  },
+  "langs": [
+   "sq"
+  ]
+ },
+ "AZE": {
+  "arms": [
+   "Emblem of Azerbaijan.svg"
+  ],
+  "seal": [],
+  "names": {
+   "az": "Azərbaycan Respublikası"
+  },
+  "langs": [
+   "az"
+  ]
+ },
+ "GEO": {
+  "arms": [
+   "Greater coat of arms of Georgia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Georgia",
+   "sv": "Georgien",
+   "cs": "Gruzie",
+   "ru": "Грузия",
+   "ka": "საქართველო",
+   "fr": "Géorgie (la)",
+   "lt": "Sakartvelas"
+  },
+  "langs": [
+   "ka"
+  ]
+ },
+ "MLT": {
+  "arms": [
+   "Coat of arms of Malta.svg"
+  ],
+  "seal": [],
+  "names": {
+   "mt": "Repubblika ta' Malta"
+  },
+  "langs": [
+   "mt",
+   "en"
+  ]
+ },
+ "MNE": {
+  "arms": [
+   "Coat of arms of Montenegro.svg"
+  ],
+  "seal": [],
+  "names": {
+   "cnr": "Crna Gora",
+   "cnr-cyrl": "Црна Гора"
+  },
+  "langs": []
+ },
+ "VAT": {
+  "arms": [
+   "Coat of arms of Vatican City (2023–present).svg"
+  ],
+  "seal": [
+   "Seal of the State of Vatican City.svg"
+  ],
+  "names": {
+   "it": "Stato della Città del Vaticano",
+   "la": "Status Civitatis Vaticanæ"
+  },
+  "langs": [
+   "la",
+   "it"
+  ]
+ },
+ "SMR": {
+  "arms": [
+   "Coat of arms of San Marino.svg"
+  ],
+  "seal": [],
+  "names": {
+   "it": "Repubblica di San Marino",
+   "fr": "la République de Saint-Marin"
+  },
+  "langs": [
+   "it"
+  ]
+ },
+ "CUB": {
+  "arms": [
+   "Coat of arms of Cuba.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Republic of Cuba",
+   "es": "República de Cuba",
+   "fr": "la République de Cuba"
+  },
+  "langs": [
+   "es"
+  ]
+ },
+ "UZB": {
+  "arms": [
+   "Emblem of Uzbekistan.svg"
+  ],
+  "seal": [
+   "Emblem of Uzbekistan.svg"
+  ],
+  "names": {
+   "uz": "O‘zbekiston Respublikasi"
+  },
+  "langs": [
+   "uz"
+  ]
+ },
+ "SGP": {
+  "arms": [
+   "Coat of arms of Singapore.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Republic of Singapore",
+   "ms": "Republik Singapura",
+   "ta": "சிங்கப்பூர் குடியரசு",
+   "zh": "新加坡共和国"
+  },
+  "langs": [
+   "ms",
+   "en",
+   "ta"
+  ]
+ },
+ "ARM": {
+  "arms": [
+   "Coat of arms of Armenia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "hy": "Հայաստան",
+   "az": "Ermənistan",
+   "de": "Republik Armenien",
+   "en": "Republic of Armenia",
+   "fr": "la République d’Arménie",
+   "sk": "Arménska republika",
+   "sv": "Republiken Armenien",
+   "bg": "Република Армения"
+  },
+  "langs": [
+   "hy"
+  ]
+ },
+ "PER": {
+  "arms": [
+   "Escudo nacional del Perú.svg"
+  ],
+  "seal": [
+   "Gran Sello de la República del Perú.svg"
+  ],
+  "names": {
+   "es": "República del Perú"
+  },
+  "langs": [
+   "qu",
+   "es",
+   "ay"
+  ]
+ },
+ "NZL": {
+  "arms": [
+   "Coat of arms of New Zealand.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "New Zealand",
+   "fr": "Nouvelle-Zélande",
+   "mi": "Aotearoa"
+  },
+  "langs": [
+   "en",
+   "mi"
+  ]
+ },
+ "IND": {
+  "arms": [
+   "Emblem of India.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Republic of India",
+   "hi": "भारत गणराज्य"
+  },
+  "langs": [
+   "hi",
+   "en"
+  ]
+ },
+ "TON": {
+  "arms": [
+   "Coat of arms of Tonga.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Tonga",
+   "to": "Tonga",
+   "fr": "le Royaume des Tonga"
+  },
+  "langs": [
+   "en",
+   "to"
+  ]
+ },
+ "PNG": {
+  "arms": [
+   "National emblem of Papua New Guinea.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Papua New Guinea",
+   "fr": "l’État indépendant de Papouasie- Nouvelle-Guinée"
+  },
+  "langs": [
+   "en",
+   "ho"
+  ]
+ },
+ "PLW": {
+  "arms": [
+   "Seal of Palau.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Palau",
+   "fr": "la République des Palaos",
+   "pau": "Beluu er a Belau",
+   "zh-tw": "帛琉共和國"
+  },
+  "langs": [
+   "en",
+   "ja"
+  ]
+ },
+ "MNG": {
+  "arms": [
+   "State emblem of Mongolia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Mongolia",
+   "mn": "Монгол Улс",
+   "mn-mong": "ᠮᠤᠩᠭᠤᠯ ᠤᠯᠤᠰ"
+  },
+  "langs": [
+   "mn"
+  ]
+ },
+ "VEN": {
+  "arms": [
+   "Coat of arms of Venezuela.svg"
+  ],
+  "seal": [],
+  "names": {
+   "es": "República Bolivariana de Venezuela",
+   "en": "Bolivarian Republic of Venezuela",
+   "fr": "la République bolivarienne du Vénézuéla"
+  },
+  "langs": [
+   "es"
+  ]
+ },
+ "GUY": {
+  "arms": [
+   "Coat of arms of Guyana.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Co-operative Republic of Guyana",
+   "fr": "République coopérative du Guyana",
+   "lt": "Gajanos Kooperacinė Respublika"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "ECU": {
+  "arms": [
+   "Coat of arms of Ecuador.svg"
+  ],
+  "seal": [],
+  "names": {
+   "es": "República del Ecuador"
+  },
+  "langs": [
+   "es"
+  ]
+ },
+ "BOL": {
+  "arms": [
+   "Escudo de Bolivia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Plurinational State of Bolivia",
+   "es": "Estado Plurinacional de Bolivia",
+   "fr": "État plurinational de Bolivie",
+   "sk": "Bolívijský mnohonárodný štát"
+  },
+  "langs": [
+   "qu",
+   "es",
+   "ay",
+   "gn"
+  ]
+ },
+ "TTO": {
+  "arms": [
+   "Coat of arms of Trinidad and Tobago (2025).svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Trinidad and Tobago"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "LCA": {
+  "arms": [
+   "Coat of arms of Saint Lucia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "Sainte-Lucie",
+   "en": "Saint Lucia"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "GTM": {
+  "arms": [
+   "Coat of arms of Guatemala.svg"
+  ],
+  "seal": [],
+  "names": {
+   "es": "Guatemala",
+   "fr": "République du Guatémala"
+  },
+  "langs": [
+   "es"
+  ]
+ },
+ "HND": {
+  "arms": [
+   "Coat of arms of Honduras.svg"
+  ],
+  "seal": [],
+  "names": {
+   "es": "Honduras",
+   "fr": "la République du Honduras"
+  },
+  "langs": [
+   "es"
+  ]
+ },
+ "DOM": {
+  "arms": [
+   "Coat of arms of the Dominican Republic.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "République dominicaine",
+   "es": "República Dominicana"
+  },
+  "langs": [
+   "es"
+  ]
+ },
+ "IRN": {
+  "arms": [
+   "Emblem of Iran.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fa": "جمهوری اسلامی ایران"
+  },
+  "langs": [
+   "fa"
+  ]
+ },
+ "IRQ": {
+  "arms": [
+   "Coat of arms of Iraq.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ms": "Republik Iraq",
+   "ar": "جمهورية العراق",
+   "en": "Republic of Iraq",
+   "fr": "la République d’Irak"
+  },
+  "langs": [
+   "ku",
+   "ar"
+  ]
+ },
+ "ISR": {
+  "arms": [
+   "Emblem of Israel.svg"
+  ],
+  "seal": [],
+  "names": {
+   "he": "ישראל",
+   "ar": "دَوْلَة إِسْرَائِيل"
+  },
+  "langs": [
+   "he"
+  ]
+ },
+ "YEM": {
+  "arms": [
+   "Emblem of Yemen (2).svg"
+  ],
+  "seal": [],
+  "names": {
+   "ar": "الجمهورية اليمنية"
+  },
+  "langs": [
+   "ar"
+  ]
+ },
+ "JOR": {
+  "arms": [
+   "Coat of arms of Jordan.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ar": "المملكة الأردنية الهاشمية"
+  },
+  "langs": [
+   "ar"
+  ]
+ },
+ "NIC": {
+  "arms": [
+   "Coat of arms of Nicaragua.svg"
+  ],
+  "seal": [],
+  "names": {
+   "es": "República de Nicaragua",
+   "fr": "la République du Nicaragua"
+  },
+  "langs": [
+   "es"
+  ]
+ },
+ "KGZ": {
+  "arms": [
+   "Emblem of Kyrgyzstan.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ky": "Кыргызстан",
+   "fr": "la République kirghize"
+  },
+  "langs": [
+   "ky"
+  ]
+ },
+ "LAO": {
+  "arms": [
+   "Emblem of Laos (1991-2025).svg"
+  ],
+  "seal": [],
+  "names": {
+   "lo": "ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ"
+  },
+  "langs": [
+   "lo"
+  ]
+ },
+ "LBN": {
+  "arms": [
+   "Coat of arms of Lebanon.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Lebanese Republic",
+   "ar": "الجمهورية اللبنانية",
+   "fr": "République libanaise",
+   "id": "Republik Lebanon",
+   "ms": "Republik Lubnan"
+  },
+  "langs": [
+   "ar"
+  ]
+ },
+ "MYS": {
+  "arms": [
+   "Coat of arms of Malaysia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ms": "Malaysia"
+  },
+  "langs": [
+   "ms"
+  ]
+ },
+ "OMN": {
+  "arms": [
+   "National emblem of Oman.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ar": "سلطنة عُمان"
+  },
+  "langs": [
+   "ar"
+  ]
+ },
+ "SAU": {
+  "arms": [
+   "Emblem of Saudi Arabia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ar": "الْمَمْلَكَةُ الْعَرَبِيَّةُ السُّعُودِيَّة"
+  },
+  "langs": [
+   "ar"
+  ]
+ },
+ "TJK": {
+  "arms": [
+   "Emblem of Tajikistan.svg"
+  ],
+  "seal": [],
+  "names": {
+   "tg": "Ҷумҳурии Тоҷикистон"
+  },
+  "langs": [
+   "tg"
+  ]
+ },
+ "TKM": {
+  "arms": [
+   "Emblem of Turkmenistan.svg"
+  ],
+  "seal": [],
+  "names": {
+   "tk": "Türkmenistan"
+  },
+  "langs": [
+   "tk"
+  ]
+ },
+ "ARE": {
+  "arms": [
+   "Emblem of the United Arab Emirates.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ar": "الإمارات العربية المتحدة",
+   "fr": "les Émirats arabes unis"
+  },
+  "langs": [
+   "ar"
+  ]
+ },
+ "VNM": {
+  "arms": [
+   "Emblem of Vietnam.svg"
+  ],
+  "seal": [],
+  "names": {
+   "vi": "Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+   "en": "Socialist Republic of Vietnam",
+   "fr": "République socialiste du Vietnam"
+  },
+  "langs": [
+   "vi"
+  ]
+ },
+ "AFG": {
+  "arms": [
+   "Arms of the Islamic Emirate of Afghanistan.svg"
+  ],
+  "seal": [],
+  "names": {
+   "pl": "Islamskie Państwo Afganistanu",
+   "sk": "Afganská islamská republika",
+   "en": "Islamic Emirate of Afghanistan",
+   "ru": "Исламский Эмират Афганистан",
+   "fa-af": "امارت اسلامی افغانستان"
+  },
+  "langs": [
+   "tk",
+   "ps",
+   "ar",
+   "uz"
+  ]
+ },
+ "BRN": {
+  "arms": [
+   "Emblem of Brunei.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ms": "Negara Brunei Darussalam",
+   "en-gb": "Negara Brunei Darussalam",
+   "fr": "le Brunei Darussalam"
+  },
+  "langs": [
+   "ms"
+  ]
+ },
+ "ZWE": {
+  "arms": [
+   "Coat of arms of Zimbabwe.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Zimbabwe",
+   "fr": "République du Zimbabwe",
+   "sn": "Zimbabwe"
+  },
+  "langs": [
+   "en",
+   "ny",
+   "xh",
+   "tn",
+   "ts",
+   "st",
+   "nd",
+   "sn",
+   "ve"
+  ]
+ },
+ "BWA": {
+  "arms": [
+   "Coat of arms of Botswana.svg"
+  ],
+  "seal": [],
+  "names": {
+   "af": "Botswana",
+   "en": "Republic of Botswana",
+   "fr": "République du Botswana",
+   "sk": "Botswanská republika",
+   "tn": "Lefatshe la Botswana"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "BDI": {
+  "arms": [
+   "Coat of arms of Burundi.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Republic of Burundi",
+   "fr": "République du Burundi",
+   "rn": "Uburundi"
+  },
+  "langs": [
+   "fr",
+   "en",
+   "rn"
+  ]
+ },
+ "COM": {
+  "arms": [
+   "Seal of the Comoros.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "l’Union des Comores",
+   "ar": "القمر",
+   "en": "Union of the Comoros"
+  },
+  "langs": [
+   "fr",
+   "ar"
+  ]
+ },
+ "COD": {
+  "arms": [
+   "Coat of arms of the Democratic Republic of the Congo (black spear).svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "République démocratique du Congo"
+  },
+  "langs": [
+   "fr"
+  ]
+ },
+ "DJI": {
+  "arms": [
+   "Emblem of Djibouti.svg"
+  ],
+  "seal": [],
+  "names": {
+   "so": "Jabuuti",
+   "ar": "جمهورية جيبوتي",
+   "fr": "République de Djibouti"
+  },
+  "langs": [
+   "fr",
+   "ar"
+  ]
+ },
+ "ERI": {
+  "arms": [
+   "Emblem of Eritrea (or argent azur).svg"
+  ],
+  "seal": [],
+  "names": {
+   "ar": "دولة إرتريا",
+   "fr": "État d'Érythrée",
+   "ti": "ሃገረ ኤርትራ"
+  },
+  "langs": [
+   "en",
+   "ti",
+   "ar"
+  ]
+ },
+ "MWI": {
+  "arms": [
+   "Coat of arms of Malawi.svg"
+  ],
+  "seal": [
+   "Stamp British Central Africa 1897 6p.jpg"
+  ],
+  "names": {
+   "it": "Malawi",
+   "en": "Malawi",
+   "fr": "la République du Malawi"
+  },
+  "langs": [
+   "en",
+   "ny"
+  ]
+ },
+ "MRT": {
+  "arms": [
+   "National Seal of Mauritania.svg"
+  ],
+  "seal": [],
+  "names": {
+   "ar": "الجمهورية الإسلامية الموريتانية"
+  },
+  "langs": [
+   "fr",
+   "ar"
+  ]
+ },
+ "MUS": {
+  "arms": [
+   "Coat of arms of Mauritius.svg"
+  ],
+  "seal": [],
+  "names": {
+   "it": "Mauritius",
+   "en": "Mauritius",
+   "fr": "République de Maurice"
+  },
+  "langs": [
+   "fr",
+   "en"
+  ]
+ },
+ "MOZ": {
+  "arms": [
+   "Emblem of Mozambique.svg"
+  ],
+  "seal": [],
+  "names": {
+   "pt": "República de Moçambique"
+  },
+  "langs": [
+   "pt"
+  ]
+ },
+ "NER": {
+  "arms": [
+   "Coat of arms of Niger.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "la République du Niger",
+   "ha": "Jamhuriyar Nijar"
+  },
+  "langs": [
+   "ha"
+  ]
+ },
+ "UGA": {
+  "arms": [
+   "Coat of arms of Uganda.svg"
+  ],
+  "seal": [],
+  "names": {
+   "it": "Uganda",
+   "fr": "Ouganda",
+   "en": "Uganda",
+   "gem": "Uganda"
+  },
+  "langs": [
+   "en",
+   "sw"
+  ]
+ },
+ "STP": {
+  "arms": [
+   "Coat of arms of São Tomé and Príncipe.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "la République démocratique de Sao Tomé-et-Principe",
+   "pl": "Demokratyczna Republika Wysp Świętego Tomasza i Książęcej",
+   "pt": "São Tomé e Príncipe"
+  },
+  "langs": [
+   "pt"
+  ]
+ },
+ "SLE": {
+  "arms": [
+   "Coat of arms of Sierra Leone.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Sierra Leone",
+   "ca": "República de Sierra Leone",
+   "fr": "République de Sierra Leone",
+   "it": "Repubblica della Sierra Leone"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "SOM": {
+  "arms": [
+   "Coat of arms of Somalia.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Federal Republic of Somalia",
+   "fr": "République fédérale de Somalie",
+   "pl": "Federalna Republika Somalii",
+   "so": "Soomaaliya"
+  },
+  "langs": [
+   "ar",
+   "so"
+  ]
+ },
+ "SDN": {
+  "arms": [
+   "Emblem of Sudan.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Sudan",
+   "ar": "جمهورية السودان"
+  },
+  "langs": [
+   "en",
+   "ar"
+  ]
+ },
+ "SWZ": {
+  "arms": [
+   "Coat of arms of Eswatini.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Kingdom of Eswatini",
+   "ss": "Umbuso weSwatini"
+  },
+  "langs": [
+   "en",
+   "ss"
+  ]
+ },
+ "GIB": {
+  "arms": [
+   "Coat of arms of Gibraltar1.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Gibraltar",
+   "es": "Gibraltar"
+  },
+  "langs": []
+ },
+ "CYM": {
+  "arms": [
+   "Cayman Islands Coat of Arms.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Cayman Islands"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "HKG": {
+  "arms": [
+   "Regional Emblem of Hong Kong.svg"
+  ],
+  "seal": [
+   "Regional Emblem of Hong Kong.svg"
+  ],
+  "names": {
+   "en": "Hong Kong Special Administrative Region of the People's Republic of China",
+   "zh": "中華人民共和國香港特別行政區"
+  },
+  "langs": []
+ },
+ "ASM": {
+  "arms": [
+   "Seal of American Samoa.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "American Samoa",
+   "sm": "Amerika Sāmoa"
+  },
+  "langs": [
+   "en",
+   "sm"
+  ]
+ },
+ "MNP": {
+  "arms": [
+   "Seal of the Northern Mariana Islands.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Commonwealth of the Northern Mariana Islands",
+   "cal": "Commonwealth Téél Falúw kka Efáng llól Marianas",
+   "ch": "Sankattan Siha Na Islas Mariånas"
+  },
+  "langs": [
+   "en",
+   "ch"
+  ]
+ },
+ "ANT": {
+  "arms": [
+   "Coat of arms of the Netherlands Antilles (1986-2010).svg"
+  ],
+  "seal": [],
+  "names": {},
+  "langs": [
+   "en",
+   "nl"
+  ]
+ },
+ "AIA": {
+  "arms": [
+   "Coat of arms of Anguilla.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Anguilla"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "GGY": {
+  "arms": [
+   "Coat of arms of Guernsey.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Bailiwick of Guernsey",
+   "nrf-gg": "Bailliage dé Guernési"
+  },
+  "langs": [
+   "fr",
+   "en"
+  ]
+ },
+ "VGB": {
+  "arms": [
+   "Coat of arms of the British Virgin Islands.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "British Virgin Islands",
+   "sk": "Britské Panenské ostrovy"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "SXM": {
+  "arms": [
+   "Wapen van Sint Maarten.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Sint Maarten",
+   "nl": "Sint Maarten"
+  },
+  "langs": [
+   "en",
+   "nl"
+  ]
+ },
+ "COK": {
+  "arms": [
+   "Coat of arms of the Cook Islands.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "Cook Islands"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "BES": {
+  "arms": [],
+  "seal": [],
+  "names": {
+   "nl": "Caribisch Nederland"
+  },
+  "langs": [
+   "en",
+   "nl"
+  ]
+ },
+ "NIU": {
+  "arms": [
+   "Coat of arms of Niue.jpg"
+  ],
+  "seal": [
+   "Public Seal of Niue (1974–2021).svg"
+  ],
+  "names": {
+   "en": "Niue"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "SPM": {
+  "arms": [
+   "Armoiries SaintPierreetMiquelon.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "Saint-Pierre-et-Miquelon"
+  },
+  "langs": [
+   "fr"
+  ]
+ },
+ "WLF": {
+  "arms": [
+   "BlasonWallisetFutuna.svg"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "Wallis-et-Futuna"
+  },
+  "langs": [
+   "fr"
+  ]
+ },
+ "IOT": {
+  "arms": [
+   "Coat of arms of the British Indian Ocean Territory.svg"
+  ],
+  "seal": [],
+  "names": {
+   "en": "British Indian Ocean Territory",
+   "sk": "Britské indickooceánske územie"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "MAF": {
+  "arms": [
+   "St Martin Coat.png"
+  ],
+  "seal": [],
+  "names": {
+   "fr": "Collectivité de Saint-Martin"
+  },
+  "langs": [
+   "fr"
+  ]
+ },
+ "PCI": {
+  "arms": [
+   "Trust Territory of the Pacific Islands seal.svg"
+  ],
+  "seal": [],
+  "names": {},
+  "langs": []
+ },
+ "SHN": {
+  "arms": [],
+  "seal": [],
+  "names": {
+   "en": "St Helena, Ascension & Tristan da Cunha"
+  },
+  "langs": [
+   "en"
+  ]
+ },
+ "DHY": {
+  "arms": [
+   "Coat of arms of Dahomey (1958–1964).svg"
+  ],
+  "seal": [],
+  "names": {},
+  "langs": [
+   "fr"
+  ]
+ },
+ "SJM": {
+  "arms": [],
+  "seal": [],
+  "names": {},
+  "langs": [
+   "no"
+  ]
+ },
+ "AFI": {
+  "arms": [],
+  "seal": [],
+  "names": {},
+  "langs": []
+ }
+}
