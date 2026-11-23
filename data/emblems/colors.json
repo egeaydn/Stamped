@@ -1,7 +1,10 @@
 {
  "AGO": {
-  "title": "Angolan passport",
-  "error": "fotoğraf yok"
+  "title": "Passport",
+  "r": 102,
+  "g": 32,
+  "b": 53,
+  "share": 0.22
  },
  "AFG": {
   "title": "Afghan passport",
@@ -25,22 +28,46 @@
   "share": 0.65
  },
  "ARE": {
-  "error": "API başarısız"
+  "title": "Emirati passport",
+  "r": 26,
+  "g": 41,
+  "b": 72,
+  "share": 0.74
  },
  "ARG": {
-  "error": "API başarısız"
+  "title": "Argentine passport",
+  "r": 6,
+  "g": 29,
+  "b": 59,
+  "share": 0.52
  },
  "ARM": {
-  "error": "API başarısız"
+  "title": "Armenian passport",
+  "r": 123,
+  "g": 18,
+  "b": 13,
+  "share": 0.75
  },
  "ATG": {
-  "error": "API başarısız"
+  "title": "Antiguan and Barbudan passport",
+  "r": 43,
+  "g": 44,
+  "b": 48,
+  "share": 0.85
  },
  "AUS": {
-  "error": "API başarısız"
+  "title": "Australian passport",
+  "r": 36,
+  "g": 41,
+  "b": 67,
+  "share": 0.57
  },
  "AUT": {
-  "error": "API başarısız"
+  "title": "Austrian passport",
+  "r": 94,
+  "g": 37,
+  "b": 44,
+  "share": 0.86
  },
  "AZE": {
   "title": "Azerbaijani passport",
