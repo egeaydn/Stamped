@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <title>Stamped icon</title>
+  <g stroke="#D4AF37" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Pressed stamp ring with a small upper-right break -->
+    <path d="M391 103a190 190 0 1 0 57 99" stroke-width="25"/>
+    <path d="M417 82l20 47-49-5" stroke-width="20"/>
+    <!-- Globe -->
+    <circle cx="256" cy="256" r="111" stroke-width="18"/>
+    <path d="M145 256h222M256 145c-31 31-47 68-47 111s16 80 47 111m0-222c31 31 47 68 47 111s-16 80-47 111" stroke-width="13"/>
+    <path d="M169 207c26 16 55 24 87 24s61-8 87-24M169 305c26-16 55-24 87-24s61 8 87 24" stroke-width="12"/>
+  </g>
+  <!-- Visa status markers -->
+  <circle cx="369" cy="350" r="13" fill="#22C55E"/>
+  <circle cx="401" cy="330" r="13" fill="#3B82F6"/>
+  <circle cx="425" cy="301" r="13" fill="#EF4444"/>
+</svg>
