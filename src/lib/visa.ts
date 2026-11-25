@@ -1,4 +1,4 @@
-import data from "@/data/visa.json";
+import data from "@/data/meta.json";
 
 export type Category = "F" | "A" | "T" | "E" | "V" | "N" | "S";
 
@@ -7,8 +7,6 @@ export type Stat = { mobility: number; evisa: number; visa: number; rank: number
 
 export const countries = data.countries as Country[];
 export const stats = data.stats as Record<string, Stat>;
-const matrix = data.matrix as Record<string, Record<string, string>>;
-
 // iso3'ten ülkeye
 export const byIso3 = new Map(countries.map((c) => [c.iso3, c]));
 
@@ -30,9 +28,23 @@ export function groupOf(code: string): Group {
   return "visa";
 }
 
-// Pasaport -> hedef ülke kodu ("F90", "E", "V" ...) ; yoksa undefined
-export function statusFor(passport: string, destination: string): string | undefined {
-  return matrix[passport]?.[destination];
+// Bir pasaportun satırı: hedef ülke iso3 -> kod ("F90", "E", "V" ...)
+export type Row = Record<string, string>;
+
+const rowCache = new Map<string, Promise<Row>>();
+
+// Pasaport başına parçalanmış veri; tamamı istemciye gitmez, ilk istekte çekilir ve önbelleğe alınır
+export function loadRow(passport: string): Promise<Row> {
+  let p = rowCache.get(passport);
+  if (!p) {
+    p = fetch(`/data/passports/${passport}.json`).then((r) => {
+      if (!r.ok) throw new Error(`Pasaport verisi yüklenemedi: ${passport}`);
+      return r.json() as Promise<Row>;
+    });
+    p.catch(() => rowCache.delete(passport));
+    rowCache.set(passport, p);
+  }
+  return p;
 }
 
 // geojson ADM0_A3 kodlarının veri setindeki karşılıkları

@@ -6,7 +6,7 @@ Pasaport seçtiğin an o pasaportun hangi ülkelere vizesiz / e-vize / vizeli gi
 Mevcut sitelerin arayüzü eski ve sıkıcı. Amaç: görsel olarak etkileyici, dokunaklı bir deneyim. Başarı ölçütü: ilk açılışta "vay" dedirtmesi ve karşılaştırmanın kolay olması.
 
 ## Kararlar (değiştirmeden önce Ege'ye sor)
-- **Veritabanı ve API yok.** Veri `data/raw/*.csv` içinde, `npm run build:data` ile `src/data/visa.json` üretilir. Site statik.
+- **Veritabanı ve API yok.** Veri `data/raw/*.csv` içinde, `npm run build:data` ile `src/data/meta.json` (ülkeler + skorlar) ve `public/data/passports/{ISO3}.json` (pasaport başına satır) üretilir. Site statik.
 - **Veri kaynağı:** imorte/passport-index-data (MIT, Mart 2026). passportindex.org'dan kazıdığı için yayına almadan önce kaynağın kullanım koşullarını kontrol et. Eski alternatif: ilyankou/passport-index-dataset (Ocak 2025'ten beri veri güncellenmemiş).
 - **Puan:** Mobility Score = vizesiz + varışta vize + ETA sayısı (bkz. ROADMAP.md "Puanlama"). Henley'in resmi sıralaması değildir, arayüzde belirt.
 - Next.js 16: `node_modules/next/dist/docs/` okunmadan yeni API varsayma (AGENTS.md).

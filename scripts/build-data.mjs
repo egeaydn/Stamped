@@ -1,4 +1,4 @@
-// CSV (imorte/passport-index-data, MIT) -> src/data/visa.json
+// CSV (imorte/passport-index-data, MIT) -> src/data/meta.json + public/data/passports/*.json
 // Çalıştır: npm run build:data
 //
 // Puanlama (Henley tanımına yakın): Mobility Score = vizesiz + varışta vize + ETA hedef sayısı.
@@ -66,10 +66,13 @@ sorted.forEach(([p, s], i) => {
   s.rank = i > 0 && sorted[i - 1][1].mobility === s.mobility ? sorted[i - 1][1].rank : i + 1;
 });
 
+// Büyük matrisi tek dosyada yollamamak için: meta (ülkeler + skorlar) pakete girer,
+// her pasaportun satırı ayrı bir JSON olarak public/data/passports/ altında sunulur.
 mkdirSync("src/data", { recursive: true });
-writeFileSync(
-  "src/data/visa.json",
-  JSON.stringify({ generatedAt: new Date().toISOString(), countries, matrix, stats })
-);
+mkdirSync("public/data/passports", { recursive: true });
+writeFileSync("src/data/meta.json", JSON.stringify({ generatedAt: new Date().toISOString(), countries, stats }));
+for (const [p, row] of Object.entries(matrix)) {
+  writeFileSync(`public/data/passports/${p}.json`, JSON.stringify(row));
+}
 console.log(`${countries.length} ülke, ${rows3.length} satır işlendi.`);
 console.log("İlk 8:", sorted.slice(0, 8).map(([p, s]) => `${p}:${s.mobility}(#${s.rank})`).join(" "));

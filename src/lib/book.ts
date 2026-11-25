@@ -1,4 +1,4 @@
-import { byIso3, countries, groupOf, statusFor, type Group } from "./visa";
+import { byIso3, countries, groupOf, type Group, type Row } from "./visa";
 
 export type StampItem = { iso3: string; name: string; status: string };
 
@@ -49,11 +49,11 @@ export function stampDays(status: string): number | null {
 
 const ORDER: Group[] = ["free", "evisa", "visa"];
 
-export function buildStampPages(passport: string): Extract<Face, { type: "stamps" }>[] {
+export function buildStampPages(passport: string, row: Row): Extract<Face, { type: "stamps" }>[] {
   const buckets: Record<Group, StampItem[]> = { free: [], evisa: [], visa: [], self: [] };
   for (const c of countries) {
     if (c.iso3 === passport) continue;
-    const status = statusFor(passport, c.iso3);
+    const status = row[c.iso3];
     if (!status) continue;
     buckets[groupOf(status)].push({ iso3: c.iso3, name: c.tr, status });
   }
@@ -75,8 +75,8 @@ export function buildStampPages(passport: string): Extract<Face, { type: "stamps
 }
 
 // Kapak, kimlik sayfası, damga sayfaları (+ gerekirse boş sayfa ile çifte tamamlanır)
-export function buildFaces(passport: string): Face[] {
-  const faces: Face[] = [{ type: "cover" }, { type: "data" }, ...buildStampPages(passport)];
+export function buildFaces(passport: string, row: Row): Face[] {
+  const faces: Face[] = [{ type: "cover" }, { type: "data" }, ...buildStampPages(passport, row)];
   if (faces.length % 2 === 1) faces.push({ type: "blank" });
   return faces;
 }
