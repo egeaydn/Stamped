@@ -11,8 +11,9 @@ import {
   countries,
   groupOf,
   stats,
-  statusFor,
+  loadRow,
   type Group,
+  type Row,
 } from "@/lib/visa";
 
 type GeoFeature = {
@@ -33,6 +34,7 @@ function Flag({ iso2, className = "" }: { iso2: string; className?: string }) {
 
 export default function Explorer() {
   const [passport, setPassport] = useState("TUR");
+  const [row, setRow] = useState<Row | null>(null);
   const [query, setQuery] = useState("");
   const [hover, setHover] = useState<string | null>(null);
   const [bookOpen, setBookOpen] = useState(false);
@@ -40,13 +42,9 @@ export default function Explorer() {
   const mountRef = useRef<HTMLDivElement>(null);
   const globeRef = useRef<GlobeInstance | null>(null);
   const centroids = useRef<Map<string, { lat: number; lng: number }>>(new Map());
-  const passportRef = useRef(passport);
+  const rowRef = useRef<Row | null>(null);
   const focusTimer = useRef<number | undefined>(undefined);
   const { wide, pw } = useBookLayout();
-
-  useEffect(() => {
-    passportRef.current = passport;
-  }, [passport]);
 
   const me = byIso3.get(passport)!;
   const st = stats[passport];
@@ -91,7 +89,7 @@ export default function Explorer() {
       const ro = new ResizeObserver(() => globe.width(el.clientWidth).height(el.clientHeight));
       ro.observe(el);
       globeRef.current = globe;
-      applyColors(globe, passportRef.current);
+      applyColors(globe, rowRef.current);
       cleanup = () => {
         ro.disconnect();
         globe._destructor?.();
@@ -103,9 +101,18 @@ export default function Explorer() {
     };
   }, []);
 
-  // Pasaport değişince renkleri güncelle
+  // Pasaport değişince o pasaportun satırını çek, sonra renkleri güncelle
   useEffect(() => {
-    if (globeRef.current) applyColors(globeRef.current, passport);
+    let stale = false;
+    loadRow(passport).then((r) => {
+      if (stale) return;
+      rowRef.current = r;
+      setRow(r);
+      if (globeRef.current) applyColors(globeRef.current, r);
+    });
+    return () => {
+      stale = true;
+    };
   }, [passport]);
 
   // Defter açıkken küre dönmesin; seçili ülke biraz yükselsin
@@ -140,12 +147,13 @@ export default function Explorer() {
 
   const grouped = useMemo(() => {
     const out: Record<Group, string[]> = { free: [], evisa: [], visa: [], self: [] };
+    if (!row) return out;
     for (const c of countries) {
-      const s = statusFor(passport, c.iso3);
+      const s = row[c.iso3];
       if (s) out[groupOf(s)].push(c.iso3);
     }
     return out;
-  }, [passport]);
+  }, [row]);
 
   const results = useMemo(() => {
     const q = query.trim().toLocaleLowerCase("tr");
@@ -156,7 +164,7 @@ export default function Explorer() {
   }, [query]);
 
   const hovered = hover ? byIso3.get(hover) : null;
-  const hoveredStatus = hover ? statusFor(passport, hover) : undefined;
+  const hoveredStatus = hover && row ? row[hover] : undefined;
 
   // Defter açıkken küre kalan alana yerleşir (geniş ekranda)
   const globeRight = bookOpen && wide ? pw * 2 + 32 : 0;
@@ -246,7 +254,7 @@ export default function Explorer() {
         </div>
       )}
 
-      <PassportBook passport={passport} open={bookOpen} onOpenChange={setBookOpen} onPick={focusCountry} />
+      <PassportBook passport={passport} row={row} open={bookOpen} onOpenChange={setBookOpen} onPick={focusCountry} />
     </main>
   );
 }
@@ -255,10 +263,10 @@ function isoOf(f: GeoFeature) {
   return GEO_ALIAS[f.properties.ADM0_A3] ?? f.properties.ADM0_A3;
 }
 
-function applyColors(globe: GlobeInstance, passport: string) {
+function applyColors(globe: GlobeInstance, row: Row | null) {
   globe.polygonCapColor((f: object) => {
     const iso = isoOf(f as GeoFeature);
-    const s = statusFor(passport, iso);
+    const s = row?.[iso];
     return s ? COLORS[groupOf(s)] + "cc" : "rgba(100,116,139,0.5)";
   });
 }

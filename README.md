@@ -37,7 +37,7 @@ Ardından [http://localhost:3000](http://localhost:3000) adresini aç.
 | Komut | Ne yapar |
 | --- | --- |
 | `npm run dev` | Geliştirme sunucusu |
-| `npm run build:data` | `data/raw/*.csv` → `src/data/visa.json` |
+| `npm run build:data` | `data/raw/*.csv` → `src/data/meta.json` |
 | `npm run build` | Üretim derlemesi |
 | `npm run start` | Üretim derlemesini çalıştırır |
 | `npm run lint` | ESLint |
@@ -47,7 +47,7 @@ Ardından [http://localhost:3000](http://localhost:3000) adresini aç.
 ```
 data/raw/            Ham vize CSV'leri (imorte/passport-index-data)
 data/emblems/        Arma/renk toplama çıktıları ve atıf bilgisi
-scripts/build-data.mjs   CSV -> visa.json, puan ağırlıkları burada tanımlı
+scripts/build-data.mjs   CSV -> meta.json + passports/*.json, puan ağırlıkları burada tanımlı
 scripts/emblems/     Wikidata/Commons'tan arma ve kapak rengi üretim hattı
 src/components/      Explorer (küre + arama) ve passport/ (kitap, sayfalar, damga)
 src/lib/             Veri erişimi ve sayfa üretimi (book.ts)

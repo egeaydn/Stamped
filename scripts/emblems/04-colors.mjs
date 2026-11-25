@@ -5,7 +5,7 @@ import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import sharp from "sharp";
 
 const UA = "stamped-project/0.1 (personal hobby project; contact via GitHub)";
-const visa = JSON.parse(readFileSync("src/data/visa.json", "utf8"));
+const visa = JSON.parse(readFileSync("src/data/meta.json", "utf8"));
 const OUT = "data/emblems/colors.json";
 const out = existsSync(OUT) ? JSON.parse(readFileSync(OUT, "utf8")) : {};
 

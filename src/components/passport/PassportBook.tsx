@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { animate, motion, useMotionValue, useReducedMotion, useTransform, type MotionValue } from "framer-motion";
 import { buildFaces, sectionStarts, type Face } from "@/lib/book";
-import { COLORS, type Group } from "@/lib/visa";
+import { COLORS, type Group, type Row } from "@/lib/visa";
 import Cover from "./Cover";
 import { BlankPage, DataPage, StampsPage } from "./Pages";
 import { StampDefs } from "./Stamp";
@@ -33,12 +33,13 @@ export function useBookLayout() {
 
 type Props = {
   passport: string;
+  row: Row | null;
   open: boolean;
   onOpenChange: (open: boolean) => void;
   onPick: (iso3: string) => void;
 };
 
-export default function PassportBook({ passport, open, onOpenChange, onPick }: Props) {
+export default function PassportBook({ passport, row, open, onOpenChange, onPick }: Props) {
   const { wide, pw, ph, vw } = useBookLayout();
   const reduce = !!useReducedMotion();
 
@@ -60,9 +61,11 @@ export default function PassportBook({ passport, open, onOpenChange, onPick }: P
       aria-label={open ? undefined : "Pasaport defterini aç"}
       onKeyDown={open ? undefined : (e) => (e.key === "Enter" || e.key === " ") && onOpenChange(true)}
     >
+      {row && (
       <Book
         key={passport}
         passport={passport}
+        row={row}
         open={open}
         onOpenChange={onOpenChange}
         onPick={onPick}
@@ -71,12 +74,14 @@ export default function PassportBook({ passport, open, onOpenChange, onPick }: P
         ph={ph}
         reduce={reduce}
       />
+      )}
     </motion.div>
   );
 }
 
 type BookProps = {
   passport: string;
+  row: Row;
   open: boolean;
   onOpenChange: (open: boolean) => void;
   onPick: (iso3: string) => void;
@@ -86,8 +91,8 @@ type BookProps = {
   reduce: boolean;
 };
 
-function Book({ passport, open, onOpenChange, onPick, wide, pw, ph, reduce }: BookProps) {
-  const faces = useMemo(() => buildFaces(passport), [passport]);
+function Book({ passport, row, open, onOpenChange, onPick, wide, pw, ph, reduce }: BookProps) {
+  const faces = useMemo(() => buildFaces(passport, row), [passport, row]);
   const starts = useMemo(() => sectionStarts(faces), [faces]);
   const single = !wide;
   const L = single ? faces.length : faces.length / 2; // yaprak sayısı

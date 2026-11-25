@@ -8,7 +8,7 @@ Hazır bir puan/sıralama API'si bulunamadı. Henley (IATA Timatic verisi, kapal
 - Veri setinde 199 hedef var ve süre bilgisi yok, bu yüzden sayılarımız Henley'inkinden farklı çıkar (BAE 169, Singapur 163). Arayüzde "Henley'in resmi sıralaması değildir" notu olmalı.
 
 ## Aşamalar
-1. **Veri (bitti):** imorte/passport-index-data (Mart 2026) kullanılıyor; ilyankou setinin son veri güncellemesi Ocak 2025 olduğu için eskisi bırakıldı. ISO2 ve TR/EN ülke adları üretiliyor. Kalan: pasaport başına JSON'a bölme.
+1. **Veri (bitti):** imorte/passport-index-data (Mart 2026) kullanılıyor; ilyankou setinin son veri güncellemesi Ocak 2025 olduğu için eskisi bırakıldı. ISO2 ve TR/EN ülke adları üretiliyor. Pasaport başına JSON parçalama bitti: `src/data/meta.json` + `public/data/passports/*.json`, istemci `loadRow()` ile ilk kullanımda çeker.
 2. **İskelet (yarım):** pasaport arama + bilgi paneli var. Kalan: tasarım tokenları, tema, mobil düzen.
 3. **Küre (ilk sürüm çalışıyor):** dönen dünya, pasaporta göre renkler, ülkeye tıklayınca pasaport değişir. Kalan: 110m harita 177 ülke içeriyor, 30'dan fazla küçük devlet (Singapur, Malta, Maldivler, Bahreyn, Monako vb.) haritada görünmüyor; nokta/halka katmanıyla eklenecek. Detay paneli, seçili ülkeye kamera odaklama.
    - Bilinen sorun: Windows'ta bayrak emojileri harf olarak görünüyor, bayrak görselleriyle (ör. SVG seti) değiştirilecek.

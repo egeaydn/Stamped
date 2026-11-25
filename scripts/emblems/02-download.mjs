@@ -5,7 +5,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const UA = "stamped-project/0.1 (personal hobby project; contact via GitHub)";
 const wd = JSON.parse(readFileSync("data/emblems/wikidata.json", "utf8"));
-const visa = JSON.parse(readFileSync("src/data/visa.json", "utf8"));
+const visa = JSON.parse(readFileSync("src/data/meta.json", "utf8"));
 const codes = visa.countries.map((c) => c.iso3);
 
 // Wikidata'da eksik/yanlış olanlar için elle seçimler (Commons dosya adı).

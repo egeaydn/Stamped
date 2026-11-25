@@ -5,7 +5,7 @@
 // Çalıştır: node scripts/emblems/05-covers.mjs
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 
-const visa = JSON.parse(readFileSync("src/data/visa.json", "utf8"));
+const visa = JSON.parse(readFileSync("src/data/meta.json", "utf8"));
 const wd = JSON.parse(readFileSync("data/emblems/wikidata.json", "utf8"));
 const colors = existsSync("data/emblems/colors.json") ? JSON.parse(readFileSync("data/emblems/colors.json", "utf8")) : {};
 const emblems = existsSync("src/data/emblems.json") ? JSON.parse(readFileSync("src/data/emblems.json", "utf8")) : {};
