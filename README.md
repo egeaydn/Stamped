@@ -42,6 +42,8 @@ Ardından [http://localhost:3000](http://localhost:3000) adresini aç.
 | `npm run start` | Üretim derlemesini çalıştırır |
 | `npm run lint` | ESLint |
 
+Yayında `NEXT_PUBLIC_SITE_URL` ortam değişkenini sitenin adresine ayarla (ör. `https://stamped.vercel.app`). Paylaşım görselleri (OG) ve canonical linkler bu adresle üretilir.
+
 ## Proje yapısı
 
 ```

@@ -34,8 +34,9 @@ function Flag({ iso2, className = "" }: { iso2: string; className?: string }) {
   return <span className={`fi fis fi-${iso2.toLowerCase()} rounded-[3px] align-[-2px] ${className}`} />;
 }
 
-export default function Explorer() {
-  const [passport, setPassport] = useState("TUR");
+export default function Explorer({ initialPassport = "TUR" }: { initialPassport?: string }) {
+  const [passport, setPassport] = useState(initialPassport);
+  const [copied, setCopied] = useState(false);
   const [compare, setCompare] = useState(false);
   const [extra, setExtra] = useState<string[]>([]); // karşılaştırmadaki ek pasaportlar (ilk pasaport = seçili)
   const [rowsMap, setRowsMap] = useState<Record<string, Row>>({});
@@ -166,6 +167,29 @@ export default function Explorer() {
 
   useEffect(() => () => window.clearTimeout(focusTimer.current), []);
 
+  // Adres çubuğu seçili pasaportu yansıtsın (paylaşılabilir link); sayfa yeniden yüklenmez
+  useEffect(() => {
+    window.history.replaceState(null, "", `/p/${passport}`);
+    const c = byIso3.get(passport);
+    if (c) document.title = `${c.tr} pasaportu: ${stats[passport].mobility} ülkeye vizesiz | Stamped`;
+  }, [passport]);
+
+  const share = useCallback(async () => {
+    const url = `${window.location.origin}/p/${passport}`;
+    const name = byIso3.get(passport)?.tr ?? passport;
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: `${name} pasaportu`, url });
+        return;
+      } catch {
+        // kullanıcı vazgeçti; panoya kopyalamaya düş
+      }
+    }
+    await navigator.clipboard.writeText(url);
+    setCopied(true);
+    window.setTimeout(() => setCopied(false), 2000);
+  }, [passport]);
+
   const pickPassport = useCallback((iso: string) => {
     if (compareRef.current) setExtra((e) => (e.includes(iso) || e.length >= MAX_COMPARE - 1 ? e : [...e, iso]));
     else setPassport(iso);
@@ -292,6 +316,12 @@ export default function Explorer() {
           }`}
         >
           {compare ? "Karşılaştırmayı kapat" : "Pasaport karşılaştır"}
+        </button>
+        <button
+          onClick={share}
+          className="mt-2 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200 transition-colors hover:bg-white/10"
+        >
+          {copied ? "Bağlantı kopyalandı ✓" : "Bu pasaportu paylaş"}
         </button>
         <p className="mt-4 text-[11px] leading-relaxed text-slate-500">
           Sayı = vizesiz + varışta vize + ETA (Henley yöntemine yakın). E-vize ayrı sayılır. Resmi bir sıralama değildir.
