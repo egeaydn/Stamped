@@ -86,7 +86,7 @@ export default function ComparePanel({ passports, rows, onRemove, onFocus, onClo
   return (
     <aside
       aria-label="Pasaport karşılaştırma"
-      className="absolute bottom-0 right-0 z-10 max-h-[55dvh] w-full overflow-y-auto rounded-t-2xl border border-white/10 bg-slate-950/80 p-5 backdrop-blur md:bottom-auto md:right-4 md:top-4 md:max-h-[calc(100dvh-2rem)] md:w-[24rem] md:rounded-2xl"
+      className="absolute bottom-0 right-0 z-10 max-h-[42dvh] w-full overflow-y-auto rounded-t-2xl border border-white/10 bg-slate-950/80 p-5 backdrop-blur md:bottom-auto md:right-4 md:top-4 md:max-h-[calc(100dvh-2rem)] md:w-[24rem] md:rounded-2xl"
     >
       <div className="flex items-center justify-between">
         <h2 className="text-xs uppercase tracking-[0.25em] text-sky-300">Karşılaştırma</h2>
@@ -130,7 +130,7 @@ export default function ComparePanel({ passports, rows, onRemove, onFocus, onClo
 
       {passports.length < MAX_COMPARE && (
         <p className="mt-4 text-xs text-slate-400">
-          Soldan arama yaparak veya küreden bir ülkeye tıklayarak pasaport ekle (en fazla {MAX_COMPARE}).
+          Arama yaparak veya küreden bir ülkeye tıklayarak pasaport ekle (en fazla {MAX_COMPARE}).
         </p>
       )}
 

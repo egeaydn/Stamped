@@ -245,6 +245,8 @@ export default function Explorer({ initialPassport = "TUR" }: { initialPassport?
   const hovered = hover ? byIso3.get(hover) : null;
   const hoveredStatus = hover && row ? row[hover] : undefined;
   const comparing = compare && list.length > 1;
+  // Mobilde karşılaştırma açıkken sol panel sadeleşir ki küre görünsün
+  const slim = compare ? "max-md:hidden" : "";
 
   // Defter açıkken küre kalan alana yerleşir (geniş ekranda)
   const globeRight = compare && wide ? 400 : bookOpen && wide ? pw * 2 + 32 : 0;
@@ -255,7 +257,7 @@ export default function Explorer({ initialPassport = "TUR" }: { initialPassport?
       <div ref={mountRef} className="absolute inset-y-0" style={{ left: globeLeft, right: globeRight }} />
 
       <aside
-        className={`absolute left-4 top-4 z-10 w-[min(22rem,calc(100vw-2rem))] rounded-2xl border border-white/10 bg-slate-950/70 p-5 backdrop-blur ${
+        className={`absolute left-4 top-4 z-10 w-[min(22rem,calc(100vw-2rem))] rounded-2xl border border-white/10 bg-slate-950/70 p-5 backdrop-blur ${compare ? "max-md:p-3" : ""} ${
           bookOpen ? "max-[979px]:hidden" : ""
         }`}
       >
@@ -263,7 +265,7 @@ export default function Explorer({ initialPassport = "TUR" }: { initialPassport?
         <h1 className="mt-3 flex items-center gap-2 text-2xl font-semibold">
           <Flag iso2={me.iso2} className="text-[1.5rem]" /> {me.tr}
         </h1>
-        <div className="mt-4 flex items-end gap-6">
+        <div className={`mt-4 flex items-end gap-6 ${slim}`}>
           <div>
             <div className="text-5xl font-bold tabular-nums">{st.mobility}</div>
             <div className="text-xs text-slate-400">vizesiz erişim</div>
@@ -301,7 +303,7 @@ export default function Explorer({ initialPassport = "TUR" }: { initialPassport?
           )}
         </div>
 
-        <ul className="mt-5 space-y-2 text-sm">
+        <ul className={`mt-5 space-y-2 text-sm ${slim}`}>
           {(Object.keys(LABELS) as Group[])
             .filter((g) => g !== "self")
             .map((g) => (
@@ -330,11 +332,11 @@ export default function Explorer({ initialPassport = "TUR" }: { initialPassport?
         </button>
         <button
           onClick={share}
-          className="mt-2 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200 transition-colors hover:bg-white/10"
+          className={`mt-2 w-full ${slim} rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200 transition-colors hover:bg-white/10`}
         >
           {copied ? "Bağlantı kopyalandı ✓" : "Bu pasaportu paylaş"}
         </button>
-        <p className="mt-4 text-[11px] leading-relaxed text-slate-500">
+        <p className={`mt-4 text-[11px] leading-relaxed text-slate-500 ${slim}`}>
           Sayı = vizesiz + varışta vize + ETA (Henley yöntemine yakın). E-vize ayrı sayılır. Resmi bir sıralama değildir.{" "}
           <a href="/about" className="underline-offset-2 hover:text-slate-300 hover:underline">
             Yöntem ve kaynaklar
