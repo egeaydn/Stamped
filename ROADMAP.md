@@ -15,7 +15,7 @@ Hazır bir puan/sıralama API'si bulunamadı. Henley (IATA Timatic verisi, kapal
 4. **Pasaport deneyimi (ilk sürüm bitti):** sağ altta kapak olarak duruyor, tıklayınca büyüyüp açılıyor. 3D sayfa çevirme, kimlik sayfası, bölümlere göre damga sayfaları (vizesiz, e-vize, vize gerekli), bölüm atlama, klavye (← → Esc), damgaya tıklayınca küre ülkeye uçar. Mobilde tek sayfa kipi. Kod: `src/components/passport/`, sayfa üretimi `src/lib/book.ts`.
    - Kalan: sayfa kenarından tıklayıp/sürükleyerek çevirme (swipe), kapak renklerini gerçek pasaport renklerine göre doğrulama, damga sesi/titreşimi (isteğe bağlı), küçük devletlerde uçuş.
 5. **Karşılaştırma (ilk sürüm bitti):** 2-4 pasaport; küre pasaport renkleriyle boyanır (hepsi vizesiz = yeşil, 2 pasaportta tek taraf = o pasaportun rengi, 3+ pasaportta kısmi = turuncu ton), sağ panelde skor çubukları ve "yalnızca X" listeleri. Kod: `src/components/ComparePanel.tsx`, `src/lib/compare.ts`.
-6. **Puan ve sıralama:** dünya sıralaması, pasaport kartında puan.
+6. **Puan ve sıralama (bitti):** `/ranking` sayfası: ilk üç için kapaklı podyum, eşit skorlu pasaportlar aynı kademede, arama; sol paneldeki "dünya sırası" buraya gider.
 7. **Paylaşım (bitti):** her pasaport için `/p/{ISO3}` statik sayfası, dinamik OG görseli (`src/app/p/[iso3]/opengraph-image.tsx`), "Bu pasaportu paylaş" düğmesi, adres çubuğu seçili pasaportu izler.
 8. **Cila:** performans (Lighthouse), erişilebilirlik, mobil, SEO, paylaşım görselleri (OG).
 9. **Yayın:** Vercel (ücretsiz), kaynak/lisans atıfı sayfası.
