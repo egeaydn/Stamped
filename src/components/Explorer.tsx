@@ -5,6 +5,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { GlobeInstance } from "globe.gl";
 import PassportBook, { useBookLayout } from "./passport/PassportBook";
 import ComparePanel from "./ComparePanel";
+import { SMALL_STATES } from "@/lib/small-states";
 import { MAX_COMPARE, PASSPORT_COLORS, compareColor } from "@/lib/compare";
 import {
   COLORS,
@@ -70,6 +71,7 @@ export default function Explorer({ initialPassport = "TUR" }: { initialPassport?
         const c = centroidOf(f);
         if (c) centroids.current.set(isoOf(f), c);
       }
+      for (const [iso, c] of Object.entries(SMALL_STATES)) centroids.current.set(iso, c);
       const el = mountRef.current;
       const globe = new Globe(el)
         .backgroundColor("rgba(0,0,0,0)")
@@ -88,8 +90,17 @@ export default function Explorer({ initialPassport = "TUR" }: { initialPassport?
         .onPolygonClick((f: object) => {
           const iso = isoOf(f as GeoFeature);
           if (byIso3.has(iso)) pickRef.current(iso);
-        });
-      globe.controls().autoRotate = true;
+        })
+        // Haritada poligonu olmayan küçük devletler nokta olarak
+        .pointsData(SMALL_POINTS)
+        .pointAltitude(0.02)
+        .pointRadius(0.55)
+        .pointsMerge(false)
+        .pointLabel(() => "")
+        .onPointHover((p: object | null) => setHover(p ? (p as SmallPoint).iso : null))
+        .onPointClick((p: object) => pickRef.current((p as SmallPoint).iso));
+      // Hareket azaltma tercihi varsa küre kendiliğinden dönmez
+      globe.controls().autoRotate = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
       globe.controls().autoRotateSpeed = 0.5;
 
       // Kutu boyutu değişince (defter açılınca) küreyi yeniden boyutlandır
@@ -141,7 +152,7 @@ export default function Explorer({ initialPassport = "TUR" }: { initialPassport?
   useEffect(() => {
     const g = globeRef.current;
     if (!g) return;
-    g.controls().autoRotate = !bookOpen;
+    g.controls().autoRotate = !bookOpen && !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   }, [bookOpen]);
 
   useEffect(() => {
@@ -160,7 +171,7 @@ export default function Explorer({ initialPassport = "TUR" }: { initialPassport?
       setFocusIso(null);
       globeRef.current?.ringsData([]);
     }, 6000);
-    if (!g || !c) return; // küçük devletler 110m haritada yok
+    if (!g || !c) return;
     g.pointOfView({ lat: c.lat, lng: c.lng, altitude: 1.7 }, 1300);
     g.ringsData([{ lat: c.lat, lng: c.lng }]);
   }, []);
@@ -383,9 +394,17 @@ function isoOf(f: GeoFeature) {
   return GEO_ALIAS[f.properties.ADM0_A3] ?? f.properties.ADM0_A3;
 }
 
+type SmallPoint = { iso: string; lat: number; lng: number };
+const SMALL_POINTS: SmallPoint[] = Object.entries(SMALL_STATES).map(([iso, c]) => ({ iso, ...c }));
+
+// Hem poligonlar hem küçük devlet noktaları aynı renk kuralını kullanır
+function paint(globe: GlobeInstance, colorOf: (iso: string) => string) {
+  globe.polygonCapColor((f: object) => colorOf(isoOf(f as GeoFeature)));
+  globe.pointColor((p: object) => colorOf((p as SmallPoint).iso));
+}
+
 function applyColors(globe: GlobeInstance, row: Row | null) {
-  globe.polygonCapColor((f: object) => {
-    const iso = isoOf(f as GeoFeature);
+  paint(globe, (iso) => {
     const s = row?.[iso];
     return s ? COLORS[groupOf(s)] + "cc" : "rgba(100,116,139,0.5)";
   });
@@ -393,7 +412,7 @@ function applyColors(globe: GlobeInstance, row: Row | null) {
 
 // Karşılaştırma modunda renkler pasaportlara göre
 function applyCompareColors(globe: GlobeInstance, rows: Row[]) {
-  globe.polygonCapColor((f: object) => compareColor(rows, isoOf(f as GeoFeature)));
+  paint(globe, (iso) => compareColor(rows, iso));
 }
 
 // En büyük halkanın sınır kutusunun merkezi (kameranın bakacağı yer için yeterli)
