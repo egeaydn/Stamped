@@ -257,10 +257,10 @@ export default function Explorer({ initialPassport = "TUR" }: { initialPassport?
             <div className="text-5xl font-bold tabular-nums">{st.mobility}</div>
             <div className="text-xs text-slate-400">vizesiz erişim</div>
           </div>
-          <div>
-            <div className="text-2xl font-semibold tabular-nums">#{st.rank}</div>
-            <div className="text-xs text-slate-400">dünya sırası</div>
-          </div>
+          <a href="/ranking" className="group" title="Tüm sıralamayı gör">
+            <div className="text-2xl font-semibold tabular-nums group-hover:text-sky-300">#{st.rank}</div>
+            <div className="text-xs text-slate-400 group-hover:text-sky-300">dünya sırası →</div>
+          </a>
         </div>
 
         <div className="relative mt-5">
