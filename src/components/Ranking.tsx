@@ -77,6 +77,9 @@ export default function Ranking() {
           <Link href="/" className="text-xs uppercase tracking-[0.25em] text-sky-300 hover:text-sky-200">
             ← Stamped
           </Link>
+          <Link href="/about" className="text-xs text-slate-400 hover:text-slate-200">
+            Yöntem ve kaynaklar
+          </Link>
         </nav>
 
         <header className="mt-8 text-center">

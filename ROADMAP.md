@@ -17,8 +17,8 @@ Hazır bir puan/sıralama API'si bulunamadı. Henley (IATA Timatic verisi, kapal
 5. **Karşılaştırma (ilk sürüm bitti):** 2-4 pasaport; küre pasaport renkleriyle boyanır (hepsi vizesiz = yeşil, 2 pasaportta tek taraf = o pasaportun rengi, 3+ pasaportta kısmi = turuncu ton), sağ panelde skor çubukları ve "yalnızca X" listeleri. Kod: `src/components/ComparePanel.tsx`, `src/lib/compare.ts`.
 6. **Puan ve sıralama (bitti):** `/ranking` sayfası: ilk üç için kapaklı podyum, eşit skorlu pasaportlar aynı kademede, arama; sol paneldeki "dünya sırası" buraya gider.
 7. **Paylaşım (bitti):** her pasaport için `/p/{ISO3}` statik sayfası, dinamik OG görseli (`src/app/p/[iso3]/opengraph-image.tsx`), "Bu pasaportu paylaş" düğmesi, adres çubuğu seçili pasaportu izler.
-8. **Cila:** performans (Lighthouse), erişilebilirlik, mobil, SEO, paylaşım görselleri (OG).
-9. **Yayın:** Vercel (ücretsiz), kaynak/lisans atıfı sayfası.
+8. **Cila:** SEO bitti (`lang="tr"`, `sitemap.xml`, `robots.txt`, sayfa başına meta). Kalan: açık tema, performans (Lighthouse), erişilebilirlik denetimi, mobil ince ayar.
+9. **Yayın:** Vercel (ücretsiz), `NEXT_PUBLIC_SITE_URL` ayarlanmalı. Kaynak/lisans atıfı sayfası bitti (`/about`).
 
 ## Açık sorular
 - Veri güncelliği: ne sıklıkla güncellenecek? (öneri: elle, ayda bir)

@@ -335,7 +335,10 @@ export default function Explorer({ initialPassport = "TUR" }: { initialPassport?
           {copied ? "Bağlantı kopyalandı ✓" : "Bu pasaportu paylaş"}
         </button>
         <p className="mt-4 text-[11px] leading-relaxed text-slate-500">
-          Sayı = vizesiz + varışta vize + ETA (Henley yöntemine yakın). E-vize ayrı sayılır. Resmi bir sıralama değildir.
+          Sayı = vizesiz + varışta vize + ETA (Henley yöntemine yakın). E-vize ayrı sayılır. Resmi bir sıralama değildir.{" "}
+          <a href="/about" className="underline-offset-2 hover:text-slate-300 hover:underline">
+            Yöntem ve kaynaklar
+          </a>
         </p>
       </aside>
 
