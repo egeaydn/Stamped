@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/site";
 import { Cinzel, Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -20,7 +21,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Stamped",
+  metadataBase: new URL(SITE_URL),
+  title: { default: "Stamped", template: "%s | Stamped" },
   description: "Pasaportunla nereye gidebilirsin?",
 };
 
